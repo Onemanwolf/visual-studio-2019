@@ -73,6 +73,8 @@ C#
 
 `Notice` that when you do so, the IntelliSense feature in Visual Studio offers you the option to autocomplete the entry.
 
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/csharp-name-your-calculator-project.png?raw=true "Request Pipeline")
+
 `Choose Calculator` to run your program, or `press F5`.
 
 A console window opens that reveals the sum of 42 + 119, which is 161.
