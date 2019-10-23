@@ -87,7 +87,83 @@ Close the console window.
 
 ## Improved search
 
+```
+  Demo search:
+
+  Search for Font Ctrl + Q  font  change font. 
+  Search for Class  add Class MyAwesome New Class
+  
+
+
+
+```
+
+
+
+
+
 Formerly known as Quick Launch, our new search experience is faster and more effective. Now, search results appear dynamically as you type. And, search results can often include keyboard shortcuts for commands, so that you can more easily memorize them for future use.
 
 
+The new fuzzy search logic will find anything you need, regardless of typos. So, whether you're looking for commands, settings, documentation, or other useful things, the new search feature makes it easier to find what you're looking for.
+
+## Refactorings
+There are lots of new and highly useful refactorings in C# that make it easier to organize your code. They show up as suggestions in the light bulb and include actions such as moving members to interface or base class, adjusting namespaces to match folder structure, convert foreach-loops to Linq queries, and more.
+
+```
+  Demo search:
+
+Search for Class  add Class MyAwesome New Class create Dog class.
+ 
+  Ctrl + . inside  
+  
+  type `: IAnimal` after Dog as below:
+   class Dog : IAnimal
+    {
+    }
+click inside IAnimal Ctrl + .
+`Select` create Interface in another file
+
+goto IAnimal file double click add Leg Property
+internal interface IAnimal
+    {
+
+        int Legs { get; set;}
+    }
+
+inside dog class type this method
+class Dog : IAnimal
+    {
+    }
+
+```
+img
+
+Simply invoke the refactorings by pressing Ctrl+. and selecting the action you want to take.
+
+## IntelliCode
+Visual Studio IntelliCode enhances your software development efforts by using artificial intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub—each with over 100 stars—to generate its recommendations.
+
+img
+
+Here are a few ways that Visual Studio IntelliCode can help enhance your productivity:
+
+Deliver context-aware code completions
+Guide developers to adhere to the patterns and styles of their team
+Find difficult-to-catch code issues
+Focus code reviews by drawing attention to areas that really matter
+We initially supported only C# when we first previewed the IntelliCode as an extension for Visual Studio. Now, new in 16.1, we've added support for C# and XAML "in-the-box". (Support for C++ and TypeScript/JavaScript are still in preview, however.)
+
+And if you're using C#, we've also added the ability to train a custom model on your own code.
+
+For more information about IntelliCode, see the Announcing the general availability of IntelliCode plus a sneak peek and Code more, scroll less with Visual Studio IntelliCode blog posts.
+
+## Code cleanup
+Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with the click of a button.
+
+The cleanup will format the code and apply any code fixes as suggested by the current settings and .editorconfig files.
+
+img
+
+You can also save collections of fixers as a profile. For example, if you have a small set of targeted fixers that you apply frequently while you code, and then you have another comprehensive set of fixers to apply before a code review, you can configure profiles to address these different tasks.
 
