@@ -36,11 +36,11 @@ After you apply the language and platform filters, choose the `Console App (.NET
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/csharp-create-new-project-search-console-net-core-filtered.png?raw=true "Request Pipeline")
 
  `Note:` 
-#### If you do not see the Console App (.NET Core) template, you can install it from the Create a new project window. In the Not finding what you're looking for? message, choose the Install more tools and features link.
-
- #### Then, in the Visual Studio Installer, choose the .NET Core cross-platform development workload.
-
- #### After that, choose the Modify button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose Continue to install the workload. Then, return to step 2 in this "Create a project" procedure. 
+ >If you do not see the Console App (.NET Core) >template, you can install it from the Create a new >project window. In the Not finding what you're >looking for? message, choose the Install more tools >and features link.
+>
+ >Then, in the Visual Studio Installer, choose the >.NET Core cross-platform development workload.
+>
+ >After that, choose the Modify button in the Visual >Studio Installer. You might be prompted to save >your work; if so, do so. Next, choose Continue to >install the workload. Then, return to step 2 in >this "Create a project" procedure. 
 
 
 4. In the `Configure your new project` window, type or enter Calculator in the `Project name` box. Then, choose `Create`.
@@ -57,7 +57,7 @@ Let's start with some basic integer math in C#.
 In the code editor, delete the default "Hello World" code.
 
 Specifically, delete the line that says, Console.WriteLine("Hello World!");.
-In its place, type the following code:
+In its place, `type` the following code:
 C#
 
 ``` Copy
@@ -71,11 +71,14 @@ C#
 ```
 
 
-`Notice` that when you do so, the IntelliSense feature in Visual Studio offers you the option to autocomplete the entry.
+ Notice: 
+ > that when you do so, *the IntelliSense 
+ > feature in Visual Studio offers you the option to
+ > autocomplete the entry.
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/csharp-name-your-calculator-project.png?raw=true "Request Pipeline")
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/integer-math-intellisense.gif?raw=true "Request Pipeline")
 
-`Choose Calculator` to run your program, or `press F5`.
+5. `Choose Calculator` to run your program, or `press F5`.
 
 A console window opens that reveals the sum of 42 + 119, which is 161.
 
