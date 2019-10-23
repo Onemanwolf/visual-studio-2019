@@ -20,23 +20,32 @@ For a complete list of everything that's new in this version, see the release no
 ## Create New Project
 [Getting Started](https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/?view=vs-2019)
 
-![alt text](https://github.com/kwkraus/HOW-Sessions/blob/master/sessions/asp-net-core/docs/images/request-delegate-pipeline.png?raw=true "Request Pipeline")
-
 To start, we'll create a C# application project. The project type comes with all the template files you'll need, before you've even added anything!
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio 2019.  [`tip:` right click run as Admin.]
 2. On the start window, choose Create a `new project`.
 
-On the Create a new project window, enter or type console in the search box. Next, choose C# from the Language list, and then choose Windows from the Platform list.
-After you apply the language and platform filters, choose the Console App (.NET Core) template, and then choose Next.
 
- `Note`
-If you do not see the Console App (.NET Core) template, you can install it from the Create a new project window. In the Not finding what you're looking for? message, choose the Install more tools and features link.
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/create-new-project-dark-theme.png?raw=true "Request Pipeline")
 
-Then, in the Visual Studio Installer, choose the .NET Core cross-platform development workload.
 
-After that, choose the Modify button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose Continue to install the workload. Then, return to step 2 in this "Create a project" procedure.
-In the Configure your new project window, type or enter Calculator in the Project name box. Then, choose Create.
+3. On the `Create a new project` window, enter or type console in the search box. Next, choose `C#` from the Language list, and then choose `Windows` from the Platform list.
+
+After you apply the language and platform filters, choose the `Console App (.NET Core)` template, and then choose `Next`.
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/csharp-create-new-project-search-console-net-core-filtered.png?raw=true "Request Pipeline")
+
+ `Note:` 
+#### If you do not see the Console App (.NET Core) template, you can install it from the Create a new project window. In the Not finding what you're looking for? message, choose the Install more tools and features link.
+
+ #### Then, in the Visual Studio Installer, choose the .NET Core cross-platform development workload.
+
+ #### After that, choose the Modify button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose Continue to install the workload. Then, return to step 2 in this "Create a project" procedure. 
+
+
+4. In the `Configure your new project` window, type or enter Calculator in the `Project name` box. Then, choose `Create`.
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/csharp-name-your-calculator-project.png?raw=true "Request Pipeline")
 
 Visual Studio opens your new project, which includes default "Hello World" code.
 Create the app
@@ -51,15 +60,20 @@ Specifically, delete the line that says, Console.WriteLine("Hello World!");.
 In its place, type the following code:
 C#
 
-Copy
+``` Copy
+//error for debug example
         int a = 42;
         int b = 119;
         int c = a + b;
         Console.WriteLine(c);
         Console.ReadKey();
-Notice that when you do so, the IntelliSense feature in Visual Studio offers you the option to autocomplete the entry.
+//error        
+```
 
-Choose Calculator to run your program, or press F5.
+
+`Notice` that when you do so, the IntelliSense feature in Visual Studio offers you the option to autocomplete the entry.
+
+`Choose Calculator` to run your program, or `press F5`.
 
 A console window opens that reveals the sum of 42 + 119, which is 161.
 
