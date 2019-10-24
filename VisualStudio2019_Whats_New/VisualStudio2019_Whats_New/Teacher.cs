@@ -2,6 +2,13 @@
 {
     public class Teacher : Person
     {
+        public override string FirstName { get; set ; }
+        public override string LastName { get; set ; }
+        public override string Email { get ; set; }
 
+        public override string SendMessage(string message)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
