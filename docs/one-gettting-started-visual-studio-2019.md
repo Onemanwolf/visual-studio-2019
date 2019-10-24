@@ -111,7 +111,7 @@ The new fuzzy search logic will find anything you need, regardless of typos. So,
 There are lots of new and highly useful refactorings in C# that make it easier to organize your code. They show up as suggestions in the light bulb and include actions such as moving members to interface or base class, adjusting namespaces to match folder structure, convert foreach-loops to Linq queries, and more.
 
 ```
-Demo search:
+Demo Refactoring:
 
   1. (Ctrl + Q) Search for Class select `add Class`  create a Dog class.
  
@@ -123,7 +123,7 @@ Demo search:
   
   2. click inside IAnimal and press (Ctrl + .) and then Select create Interface in another file" from the availble options.
 
-  3. look for the file in Solution explore windon IAnimal file double click after the file opens add Leg Property to the interface.
+  3. look for the file in Solution explore window IAnimal file double click after the file opens add Leg Property to the interface.
 
     internal interface IAnimal
     {
