@@ -4,5 +4,7 @@
     {
 
         int Legs { get; set;}
+
+        bool Eat(IFood food, System.DateTime time);
     }
 }
