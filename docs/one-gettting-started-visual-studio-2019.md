@@ -127,17 +127,29 @@ Demo Refactoring:
 
     internal interface IAnimal
     {
-    
         int Legs { get; set;}
     }
-    
-  4. go back to the Dog class and inside Dog class type this method
-     class Dog : IAnimal
+
+
+  4. click inside  IAnimal and (Ctrl + .) select Implement interface from the avaible options
+
+  class Dog : IAnimal
      {
-         
+
      public bool Eat(IFood food, DateTime time) => true;
 
      }
+
+  5. go back to the Dog class and inside Dog class type this method public bool Eat(IFood food, DateTime time) => true;
+
+     class Dog : IAnimal
+     {
+        public int Legs { get; set; }
+
+        public bool Eat(IFood food, DateTime time) => true;
+
+     }
+  6. Now select the entire method signature public bool Eat(IFood food, DateTime time) then (Ctrl + .) and select Pull Eat up to IAnimal
 
 ```
 img
