@@ -17,6 +17,16 @@ Collaborate: Enjoy natural collaboration through a Git-first workflow, real-time
 Debug: Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application's execution.
 For a complete list of everything that's new in this version, see the release notes.
 
+## Cloud-first workflow
+
+Something you'll notice when you open Visual Studio 2019 is its new start window.
+
+
+
+
+
+
+
 ## Create New Project
 [Getting Started](https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/?view=vs-2019)
 
