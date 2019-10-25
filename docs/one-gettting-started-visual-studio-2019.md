@@ -17,9 +17,28 @@ Collaborate: Enjoy natural collaboration through a Git-first workflow, real-time
 Debug: Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application's execution.
 For a complete list of everything that's new in this version, see the release notes.
 
+```
+
+1. Open Visual Studio Explore new features of Start window
+
+
+```
+
+
 ## Cloud-first workflow
 
 Something you'll notice when you open Visual Studio 2019 is its new start window.
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/start-window-dark.png?raw=true "Request Pipeline")
+
+The start window presents you with several options to get you to code quickly. We've placed the option to clone or check out code from a repo, first.
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/git-first.gif?raw=true "Request Pipeline")
+
+The start window also includes options to open a project or solution, open a local folder, or create a new project.
+
+For more information, see the Get to code: [How we designed the new Visual Studio start window} blog post.
+
 
 
 
@@ -29,6 +48,7 @@ Something you'll notice when you open Visual Studio 2019 is its new start window
 
 ## Create New Project
 [Getting Started](https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/?view=vs-2019)
+
 
 To start, we'll create a C# application project. The project type comes with all the template files you'll need, before you've even added anything!
 
@@ -94,6 +114,19 @@ A console window opens that reveals the sum of 42 + 119, which is 161.
 
 (Optional) You can change the operator to change the result. For example, you can change the + operator in the int c = a + b; line of code to - for subtraction, * for multiplication, or / for division. Then, when you run the program, the result changes, too.
 Close the console window.
+
+6. Close Visual Studio.
+
+```
+
+Demo Clone repo from Start Window
+
+1. Open Visual studo Demo Cloning Repo from Git
+
+2. Open the Solution VisualStudio2019_Whats_New
+
+```
+
 
 ## Improved search
 
@@ -191,4 +224,11 @@ The cleanup will format the code and apply any code fixes as suggested by the cu
 img
 
 You can also save collections of fixers as a profile. For example, if you have a small set of targeted fixers that you apply frequently while you code, and then you have another comprehensive set of fixers to apply before a code review, you can configure profiles to address these different tasks.
+
+## Live Share
+
+```
+
+
+```
 
