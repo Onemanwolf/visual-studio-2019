@@ -15,6 +15,14 @@ Demo:
 
 
 We taken the exclusive c++ break points and adapted them for .Net Core applications these break points allow to watch a specific object property even when it goes out of scope and when that object property changes setting the data break point is as simple as searching for the object property you are interested in with the new debug search tool locating the objec property right clicking it and select break when value changes from there you can press F5 to conitune and then you will recieve a notification popup informing you the change accord and where it occured.
+
+1. Place Break point on the switch statement of the  itemFetched.
+
+2. Start Degugging press F5 once the Break Point is heat goto the search tool in Debug window search for Legs.
+
+3. Right click Legs in the below Search Results and select Break when value changes from the options listed Note: notice the value is 4.
+
+4. Click Continue a Data Break Point Hit PopUP Window stating the value was changed in the Call Stack window you can see where was changed click on the stack items to examine the where it chnaged in the App during run time
 ```
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/debug-data-breakpoints.gif?raw=true "Request Pipeline")
 
