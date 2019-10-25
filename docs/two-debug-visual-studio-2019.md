@@ -14,7 +14,14 @@ We've taken the once-exclusive C++ data breakpoints and adapted them for .NET Co
 Demo: 
 
 
-We taken the exclusive c++ break points and adapted them for .Net Core applications these break points allow to watch a specific object property even when it goes out of scope and when that object property changes setting the data break point is as simple as searching for the object property you are interested in with the new debug search tool locating the objec property right clicking it and select break when value changes from there you can press F5 to conitune and then you will recieve a notification popup informing you the change accord and where it occured.
+We taken the exclusive c++ break points and adapted them for .Net Core applications
+these break points allow to watch a specific object property even when it goes out of
+scope and when that object property changes setting the data break point is as simple
+as searching for the object property you are interested in with the new debug search 
+tool locating the objec property right clicking it and select break when value 
+changes from there you can press F5 to conitune and then you will recieve a
+notification popup informing you the change accord and where it occured.
+
 
 1. Place Break point on the switch statement of the  itemFetched.
 
