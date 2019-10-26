@@ -10,9 +10,9 @@ namespace VisualStudio2019_Whats_New
             
             Console.WriteLine("Hello World!");
            
-            var dog = new Dog();
+            Dog dog = new Dog();
             string dogName = "Ruffy";
-            var fetch = dog.FetchSomething("stick",dogName, DateTime.Now);
+            string fetch = dog.FetchSomething("stick",dogName, DateTime.Now);
             dog.Legs = 6;
 
             var fetch2 = dog.FetchSomething("", dogName, DateTime.Now);
