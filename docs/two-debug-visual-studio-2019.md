@@ -77,7 +77,7 @@ New in 16.2: You can set a breakpoint in a JavaScript application and start a de
 
 ### Debug Javascript
 
-
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/snapshot-debugger.gif?raw=true "Request Pipeline")
 
 [Debug JavaScript in Microsoft Edge from Visual Studio](https://devblogs.microsoft.com/visualstudio/debug-javascript-in-microsoft-edge-from-visual-studio/)
 
