@@ -10,6 +10,13 @@ namespace VisualStudio2019_Whats_New
             
             Console.WriteLine("Hello World!");
            
+            Person teacher = new Teacher();
+
+            var name = teacher.FirstName = "Bob";
+            teacher.SendMessage("Message");
+            Console.WriteLine(name);
+
+
             Dog dog = new Dog();
             string dogName = "Ruffy";
             string fetch = dog.FetchSomething("stick",dogName, DateTime.Now);

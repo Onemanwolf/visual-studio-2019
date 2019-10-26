@@ -8,7 +8,11 @@
 
         public override string SendMessage(string message)
         {
-            throw new System.NotImplementedException();
+
+
+            System.Console.WriteLine();
+
+            return "String";
         }
     }
 }

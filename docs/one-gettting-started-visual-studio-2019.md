@@ -29,22 +29,15 @@ For a complete list of everything that's new in this version, see the release no
 
 Something you'll notice when you open Visual Studio 2019 is its new start window.
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/start-window-dark.png?raw=true "Request Pipeline")
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/start-window-dark.png?raw=true "Start Window Dark")
 
 The start window presents you with several options to get you to code quickly. We've placed the option to clone or check out code from a repo, first.
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/git-first.gif?raw=true "Request Pipeline")
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/git-first.gif?raw=true "Cloud First")
 
 The start window also includes options to open a project or solution, open a local folder, or create a new project.
 
 For more information, see the Get to code: [How we designed the new Visual Studio start window} blog post.
-
-
-
-
-
-
-
 
 ## Create New Project
 [Getting Started](https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/?view=vs-2019)
@@ -55,27 +48,29 @@ To start, we'll create a C# application project. The project type comes with all
 1. Open Visual Studio 2019.  [`tip:` right click run as Admin.]
 2. On the start window, choose Create a `new project`.
 
-
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/create-new-project-dark-theme.png?raw=true "Request Pipeline")
-
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/create-new-project-dark-theme.png?raw=true "Create New Project Start")
 
 3. On the `Create a new project` window, enter or type console in the search box. Next, choose `C#` from the Language list, and then choose `Windows` from the Platform list.
 
 After you apply the language and platform filters, choose the `Console App (.NET Core)` template, and then choose `Next`.
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/csharp-create-new-project-search-console-net-core-filtered.png?raw=true "Request Pipeline")
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/csharp-create-new-project-search-console-net-core-filtered.png?raw=true "New Project Search")
 
- `Note:` 
+ `Note:`
  >If you do not see the Console App (.NET Core) >template, you can install it from the Create a new >project window. In the Not finding what you're >looking for? message, choose the Install more tools >and features link.
 >
  >Then, in the Visual Studio Installer, choose the >.NET Core cross-platform development workload.
 >
- >After that, choose the Modify button in the Visual >Studio Installer. You might be prompted to save >your work; if so, do so. Next, choose Continue to >install the workload. Then, return to step 2 in >this "Create a project" procedure. 
+ >After that, choose the Modify button in the Visual >Studio Installer. You might be
+ >prompted to save >your work; if so, do so. Next, choose Continue to >install the
+ >workload. Then, return to step 2 in >this "Create a project" procedure.
+ >.
+
 
 
 4. In the `Configure your new project` window, type or enter Calculator in the `Project name` box. Then, choose `Create`.
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/csharp-name-your-calculator-project.png?raw=true "Request Pipeline")
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/csharp-name-your-calculator-project.png?raw=true "Calculator Project")
 
 Visual Studio opens your new project, which includes default "Hello World" code.
 Create the app
@@ -106,7 +101,7 @@ C#
  > feature in Visual Studio offers you the option to
  > autocomplete the entry.
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/integer-math-intellisense.gif?raw=true "Request Pipeline")
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/integer-math-intellisense.gif?raw=true "Intellisense")
 
 5. `Choose Calculator` to run your program, or `press F5`.
 
@@ -221,11 +216,11 @@ Paired with a new document health indicator is a new code cleanup command. You c
 
 The cleanup will format the code and apply any code fixes as suggested by the current settings and .editorconfig files.
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/code-cleanup-profile.png?raw=true "Request Pipeline")
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/code-cleanup-profile.png?raw=true "Code Clean")
 
 You can also save collections of fixers as a profile. For example, if you have a small set of targeted fixers that you apply frequently while you code, and then you have another comprehensive set of fixers to apply before a code review, you can configure profiles to address these different tasks.
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/code-cleanup-profile-configure.png?raw=true "Request Pipeline")
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/code-cleanup-profile-configure.png?raw=true "Code Clean Profile")
 
 ```
   1. Ctrl + Q search for Code Styles navigate to C# Code Style click arrow expanding General tab navigate to the var preferences change setting to Prefer 'var' and set Serverity to Warning. 
@@ -233,7 +228,7 @@ You can also save collections of fixers as a profile. For example, if you have a
   2. Demostrate the preview of code stlye and how to set and export Generate.editorconfig file from settings
 
 ```
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/code-style-window.png?raw=true "Request Pipeline") 
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/code-style-window.png?raw=true "Code Style") 
 
 ## Live Share
 
@@ -241,7 +236,7 @@ You can also save collections of fixers as a profile. For example, if you have a
 
 And with Visual Studio 2019, this service is installed by default.
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/live-share.gif?raw=true "Request Pipeline") 
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/live-share.gif?raw=true "Live Share") 
 ```
  1. Open Visual Studio Code 
 
@@ -256,6 +251,6 @@ And with Visual Studio 2019, this service is installed by default.
 
 Visual Studio 2019 has made debugging mucher more perfor
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/debug-data-breakpoints.gif?raw=true "Request Pipeline") 
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/debug-data-breakpoints.gif?raw=true "Data Break Point") 
 
 [Debug in Visual Studio 2019](two-debug-visual-studio-2019.md)

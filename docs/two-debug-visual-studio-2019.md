@@ -30,8 +30,10 @@ notification popup informing you the change accord and where it occured.
 3. Right click Legs in the below Search Results and select Break when value changes from the options listed Note: notice the value is 4.
 
 4. Click Continue a Data Break Point Hit PopUP Window stating the value was changed in the Call Stack window you can see where was changed click on the stack items to examine the where it chnaged in the App during run time
+
+
 ```
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/debug-data-breakpoints.gif?raw=true "Request Pipeline")
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/debug-data-breakpoints.gif?raw=true "Debug Data Break Point")
 
 So whether you're coding in C++ or .NET Core, data breakpoints can be a good alternative to just placing regular breakpoints. Data breakpoints are also great for scenarios such as finding where a global object is being modified or being added or removed from a list.
 
@@ -40,13 +42,16 @@ And, if you're a C++ developer who develops large applications, Visual Studio 20
 ### Search while debugging
 You've probably been there before, looking in the Watch window for a string amongst a set of values. In Visual Studio 2019, we've added search in the Watch, Locals, and Autos windows to help you find the objects and values you're looking for.
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/debug-window-search.gif?raw=true "Request Pipeline")
-
-
-
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/debug-window-search.gif?raw=true "Debug Window Search")
 
 ```
-  Demo:
+  Demo: 
+
+  1. Searh for Local varible and Properties.
+
+  2. Demostrate the ablility to add Watch. 
+
+  3. Demostrate the ability to change the depth of your search.
 
 ```
 
