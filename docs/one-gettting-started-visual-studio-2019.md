@@ -233,7 +233,7 @@ You can also save collections of fixers as a profile. For example, if you have a
   2. Demostrate the preview of code stlye and how to set and export Generate.editorconfig file from settings
 
 ```
-
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/code-style-window.png?raw=true "Request Pipeline") 
 
 ## Live Share
 
