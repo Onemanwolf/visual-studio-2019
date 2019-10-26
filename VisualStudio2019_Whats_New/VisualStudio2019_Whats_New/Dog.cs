@@ -25,9 +25,10 @@ namespace VisualStudio2019_Whats_New
             {
                 throw new ArgumentException("message", nameof(dogName));
             }
-            var addVar = "Code Share is cool";
+            
             var check = command.ToUpper();
             Legs = 4;
+            //Code Clean Up 
           var  itemFetched = check switch {
               "STICK" => "Stick",
               "BALL" => "Ball",

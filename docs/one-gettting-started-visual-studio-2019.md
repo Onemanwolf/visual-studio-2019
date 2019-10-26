@@ -227,8 +227,24 @@ You can also save collections of fixers as a profile. For example, if you have a
 
 ## Live Share
 
+[Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) is a developer service that allows you to share a codebase and its context with a teammate and get instant bidirectional collaboration directly from within Visual Studio. With Live Share, a teammate can read, navigate, edit, and debug a project that you've shared with them, and do so seamlessly and securely.
+
+And with Visual Studio 2019, this service is installed by default.
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/live-share.gif?raw=true "Request Pipeline") 
+```
+ 1. Open Visual Studio Code 
+
+ 2. Select the Live Share Extension Click on Jion Session and Paste in the Url to the live session    
+ 
+ Note:  ###Make sure to install the live share extension if it is not availble Search the Extension for Live Share and install it takes just a few minutes if that .
+
 ```
 
 
-```
+## Debug
+View the following video to learn more about how you can zero in with precise targeting while you debug.
 
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/debug-data-breakpoints.gif?raw=true "Request Pipeline") 
+
+[Debug in Visual Studio 2019](two-debug-visual-studio-2019.md)
