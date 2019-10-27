@@ -216,13 +216,18 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
 ```
  Demo IntelliCode
 
-   1.  IntelliCode is IntelliSense on steriods it uses AI to Train a model for you person coding style as well as give you suggestion based the most popular options used by the community at large. 
+   1.  IntelliCode is IntelliSense on steriods it uses AI to
+    Train a model for you person coding style as well as give 
+    you suggestion based the most popular options used by the 
+    community at large. 
 
    Training Code You will need to Enable Intellicode 
 
    You can Train a Model by clicking train my model and it creates a model and downloads it on your machine.
 
-   As you code your class and methods it learns and shares with others and suggest the most popular suggesting based on the community at large.
+   As you code your class and methods it learns and shares with
+   others and suggest the most popular suggesting based on the
+   community at large.
 
 
 
