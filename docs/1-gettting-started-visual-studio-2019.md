@@ -229,6 +229,8 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
    others and suggest the most popular suggesting based on the
    community at large.
 
+   AI-assisted IntelliSense for multiple languages that predicts the most likely correct API for the developer to use instead of just an alphabetical list of members. It uses the developer's current code context and patterns to provide this dynamic list.
+
 
 
 
