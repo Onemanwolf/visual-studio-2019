@@ -6,7 +6,6 @@
 
 [Video](https://www.youtube.com/watch?v=hr72Fs8n_9c)
 
-
 Performance gains
 We've taken the once-exclusive C++ data breakpoints and adapted them for .NET Core applications.
 
@@ -42,9 +41,6 @@ You've probably been there before, looking in the Watch window for a string amon
 
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/debug-window-search.gif?raw=true "Request Pipeline")
 
-
-
-
 ```
   Demo:
 
@@ -73,8 +69,6 @@ For more information, see the [Debug live ASP.NET Azure apps using the Snapshot 
 ### Microsoft Edge Insider support
 New in 16.2: You can set a breakpoint in a JavaScript application and start a debug session by using the [Microsoft Edge Insider](https://www.microsoftedgeinsider.com/en-us/) browser. When you do so, Visual Studio opens a new browser window with debugging enabled, which you can then use to step through application JavaScript within Visual Studio.
 
-
-
 ### Debug Javascript
 
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/snapshot-debugger.gif?raw=true "Request Pipeline")
@@ -82,10 +76,5 @@ New in 16.2: You can set a breakpoint in a JavaScript application and start a de
 [Debug JavaScript in Microsoft Edge from Visual Studio](https://devblogs.microsoft.com/visualstudio/debug-javascript-in-microsoft-edge-from-visual-studio/)
 
 [Microsoft Edge Insider](https://www.microsoftedgeinsider.com/en-us/)
-
-[Microsoft Edge Insider](https://www.microsoftedgeinsider.com/en-us/)
-
-
-
 
 Install [16.3 release](https://devblogs.microsoft.com/visualstudio/debug-javascript-in-microsoft-edge-from-visual-studio/)
