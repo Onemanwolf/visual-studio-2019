@@ -197,15 +197,44 @@ Simply invoke the refactorings by pressing Ctrl+. and selecting the action you w
 ## IntelliCode
 Visual Studio IntelliCode enhances your software development efforts by using artificial intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub—each with over 100 stars—to generate its recommendations.
 
-img
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/intellicode.gif?raw=true "IntelliCode")
 
 Here are a few ways that Visual Studio IntelliCode can help enhance your productivity:
 
-Deliver context-aware code completions
-Guide developers to adhere to the patterns and styles of their team
-Find difficult-to-catch code issues
-Focus code reviews by drawing attention to areas that really matter
-We initially supported only C# when we first previewed the IntelliCode as an extension for Visual Studio. Now, new in 16.1, we've added support for C# and XAML "in-the-box". (Support for C++ and TypeScript/JavaScript are still in preview, however.)
+* Deliver context-aware code completions
+* Guide developers to adhere to the patterns and styles of their team
+* Find difficult-to-catch code issues
+* Focus code reviews by drawing attention to areas that really matter
+
+
+```
+ Demo IntelliCode
+
+   1.  IntelliCode is IntelliSense on steriods it uses AI to
+    Train a model for you person coding style as well as give 
+    you suggestion based the most popular options used by the 
+    community at large. 
+
+   Training Code You will need to Enable Intellicode 
+
+   You can Train a Model by clicking train my model and it creates a model and downloads it on your machine.
+
+   As you code your class and methods it learns and shares with
+   others and suggest the most popular suggesting based on the
+   community at large.
+
+   AI-assisted IntelliSense for multiple languages that predicts the most likely correct API for the developer to use instead of just an alphabetical list of members. It uses the developer's current code context and patterns to provide this dynamic list.
+
+
+
+
+```
+
+[IntelliCode for Visual Studio Overview](https://docs.microsoft.com/en-us/visualstudio/intellicode/intellicode-visual-studio)
+
+We initially supported only C# when we first previewed the IntelliCode as an extension for Visual Studio. Now, new in 16.1, we've added 
+support * for C# and XAML "in-the-box". (Support for C++ and TypeScript/JavaScript are still in preview, however.)
 
 And if you're using C#, we've also added the ability to train a custom model on your own code.
 
@@ -253,4 +282,4 @@ Visual Studio 2019 has made debugging mucher more perfor
 
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/debug-data-breakpoints.gif?raw=true "Data Break Point") 
 
-[Debug in Visual Studio 2019](two-debug-visual-studio-2019.md)
+[Debug in Visual Studio 2019](2-debug-visual-studio-2019.md)
