@@ -274,6 +274,6 @@ There are a predefined set of editor layouts in the new View > Editor Layout men
 
 Editors that open to the side (for example by clicking the editor toolbar Split Editor action) will by default open to the right-hand side of the active editor. If you prefer to open editors below the active one, configure the new setting workbench.editor.openSideBySideDirection: down.
 
-There are many keyboard commands for adjusting the editor layout with the keyboard alone, but if you prefer to use the mouse, drag and drop is a fast way to split the editor into any direction:
+* There are many keyboard commands for adjusting the editor layout with the keyboard alone, but if you prefer to use the mouse, drag and drop is a fast way to split the editor into any direction:
 
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/grid-dnd.gif?raw=true "Request Pipeline")
