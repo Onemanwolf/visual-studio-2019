@@ -100,3 +100,180 @@ You can type to filter the currently visible files in the File Explorer. With th
 Hovering over the filter box and selecting Enable Filter on Type will show only matching files/folders. Use the 'X' Clear button to clear the filter.
 
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/file-explorer-filter.png?raw=true "Request Pipeline")
+
+# Outline view
+The Outline view is a separate section in the bottom of the File Explorer. When expanded, it will show the symbol tree of the currently active editor.
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/outline-view.png?raw=true "Request Pipeline")
+
+
+The Outline view has different Sort By modes, optional cursor tracking, and supports the usual open gestures. It also includes an input box which finds or filters symbols as you type. Errors and warnings are also shown in the Outline view, letting you see at a glance a problem's location.
+
+For symbols, the view relies on information computed by your installed extensions for different file types. For example, the built-in Markdown support returns the Markdown header hierarchy for a Markdown file's symbols.
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/markdown-outline-view.png?raw=true "Request Pipeline")
+
+There are several Outline view settings which allow you to enable/disable icons and control the errors and warnings display (all enabled by default):
+
+outline.icons - Toggle rendering outline elements with icons.
+outline.problems.enabled - Show errors and warnings on outline elements.
+outline.problems.badges - Toggle using badges for errors and warnings.
+outline.problems.colors - Toggle using colors for errors and warnings.
+Open Editors
+At the top of the Explorer is a view labeled OPEN EDITORS. This is a list of active files or previews. These are files you previously opened in VS Code that you were working on. For example, a file will be listed in the OPEN EDITORS view if you:
+
+Make a change to a file.
+Double-click a file's header.
+Double-click a file in the Explorer.
+Open a file that is not part of the current folder.
+Just click an item in the OPEN EDITORS view, and it becomes active in VS Code.
+
+Once you are done with your task, you can remove files individually from the OPEN EDITORS view, or you can remove all files by using the View: Close All Editors or View: Close All Editors in Group actions.
+
+# Views
+The File Explorer is just one of the Views available in VS Code. There are also Views for:
+
+* Search - Provides global search and replace across your open folder.
+* Source Control - VS Code includes Git source control by default.
+* Debug - VS Code's Debug View displays variables, call stacks, and breakpoints.
+* Extensions - Install and manage your extensions within VS Code.
+* Custom views - Views contributed by extensions under Explorer and Debug views.
+
+>Tip: You can open any view using the View: Open View command.
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/views.png?raw=true "Request Pipeline")
+
+You can show or hide views from within the main view and also reorder them by drag and drop.
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/view-management.png?raw=true "Request Pipeline")
+
+## Activity Bar
+The Activity Bar on the left lets you quickly switch between Views. You can also reorder Views by dragging and dropping them on the Activity Bar or remove a View entirely (right click Hide from Activity Bar).
+
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/activity-bar-context-menu.png?raw=true "Request Pipeline")
+
+Command Palette
+VS Code is equally accessible from the keyboard. The most important key combination to know is Ctrl+Shift+P, which brings up the Command Palette. From here, you have access to all of the functionality of VS Code, including keyboard shortcuts for the most common operations.
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/commands.png?raw=true "Request Pipeline")
+
+The Command Palette provides access to many commands. You can execute editor commands, open files, search for symbols, and see a quick outline of a file, all using the same interactive window. Here are a few tips:
+
+* ```Ctrl+P``` will let you navigate to any file or symbol by typing its name
+* ```Ctrl+Tab``` will cycle you through the last set of files opened
+* ```Ctrl+Shift+P``` will bring you directly to the editor commands
+* ```Ctrl+Shift+O``` will let you navigate to a specific symbol in a file
+* ```Ctrl+G``` will let you navigate to a specific line in a file
+
+Type ```?``` into the input field to get a list of available commands you can execute from here:
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/quickopenhelp.png?raw=true "Request Pipeline")
+
+# Configuring the editor
+
+VS Code gives you many options to configure the editor. From the View menu, you can hide or toggle various parts of the user interface, such as the Side Bar, Status Bar, and Activity Bar.
+
+## Hide the Menu Bar (Windows, Linux)
+You can hide the Menu Bar on Windows and Linux with the View > Toggle Menu Bar command. You can still access the Menu Bar by pressing the Alt key (window.menuBarVisibility setting).
+
+## Settings
+Most editor configurations are kept in settings which can be modified directly. You can set options globally through user settings or per project/folder through workspace settings. Settings values are kept in a settings.json file.
+
+* Select **File** > **Preferences** > ***Settings*** (or press ```Ctrl+```,) to edit the user ```settings.json``` file.
+* To edit workspace settings, select the **WORKSPACE SETTINGS** tab to edit the workspace ```settings.json``` file.
+
+>**Note for macOS users:**  The Preferences menu is under **Code** not **File**. For example, **Code** > **Preferences** > **Settings**.
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/workspace-settings.png?raw=true "Request Pipeline")
+
+
+You will see the VS Code Default Settings in the left window and your editable settings.json on the right. You can easily filter settings in the Default Settings using the search box at the top. Copy a setting over to the editable settings.json on the right by clicking on the edit icon to the left of the setting. Settings with a fixed set of values allow you to pick a value as part of their edit icon menu.
+
+After editing your settings, type Ctrl+S to save your changes. The changes will take effect immediately.
+
+>**Note**: Workspace settings will override User settings and are useful for sharing project specific settings across a team.
+
+## Zen Mode
+Zen Mode lets you focus on your code by hiding all UI except the editor (no Activity Bar, Status Bar, Side Bar and Panel), going to full screen and centering the editor layout. Zen mode can be toggled using View menu, Command Palette or by the shortcut Ctrl+K Z. Double Esc exits Zen Mode. The transition to full screen can be disabled via zenMode.fullScreen. Zen Mode can be further tuned by the following settings: zenMode.hideStatusBar, zenMode.hideTabs, zenMode.fullScreen, zenMode.restore, and zenMode.centerLayout.
+
+## Centered editor layout
+Centered editor layout allows you to center align the editor area. This is particularly useful when working with a single editor on a large monitor. You can use the sashes on the side to resize the view (hold down the Alt key to independently move the sashes).
+
+# Tabs
+Visual Studio Code shows open items with Tabs (tabbed headings) in the title area above the editor.
+
+When you open a file, a new Tab is added for that file.
+
+
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/tabs-hero.png?raw=true "Request Pipeline")
+
+Tabs let you quickly navigate between items and you can Drag and Drop Tabs to reorder them.
+
+When you have more open items than can fit in the title area, you can use the Show Opened Editors command (available through the ... More button) to display a drop-down list of tabbed items.
+
+If you don't want to use Tabs, you can disable the feature by setting the workbench.editor.showTabs setting to false:
+
+```powershell
+    "workbench.editor.showTabs": false
+```
+
+See the section below to optimize VS Code when working without Tabs.
+
+## Tab ordering
+
+By default, new Tabs are added to the right of the existing Tabs but you can control where you'd like new Tabs to appear with the workbench.editor.openPositioning setting.
+
+For example, you might like new tabbed items to appear on the left:
+
+```powershell
+    "workbench.editor.openPositioning": "left"
+```
+
+## Preview mode
+
+When you single-click or select a file in the Explorer, it is shown in a preview mode and reuses an existing Tab. This is useful if you are quickly browsing files and don't want every visited file to have its own Tab. When you start editing the file or use double-click to open the file from the Explorer, a new Tab is dedicated to that file.
+
+Preview mode is indicated by italics in the Tab heading:
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/preview-tab.png?raw=true "Request Pipeline")
+
+If you'd prefer to not use preview mode and always create a new Tab, you can control the behavior with these settings:
+
+* workbench.editor.enablePreview to globally enable or disable preview editors
+* workbench.editor.enablePreviewFromQuickOpen to enable or disable preview editors when opened from **Quick Open**
+
+## Editor Groups
+
+When you split an editor (using the **Split Editor** or **Open to the Side** commands), a new editor region is created which can hold a group of items. You can open as many editor regions as you like side by side vertically and horizontally.
+
+You can see these clearly in the **OPEN EDITORS** section at the top of the Explorer view:
+
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/tabs-editor-groups.png?raw=true "Request Pipeline")
+
+
+You can Drag and Drop editor groups on the workbench, move individual Tabs between groups and quickly close entire groups (Close All).
+
+>**Note**: VS Code uses editor groups whether or not you have enabled Tabs. Without Tabs, editor groups are a stack of your open items with the most recently selected item visible in the editor pane.
+
+## Grid editor layout
+By default, editor groups are laid out in vertical columns (for example when you split an editor to open it to the side). You can easily arrange editor groups in any layout you like, both vertically and horizontally:
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/grid-empty.png?raw=true "Request Pipeline")
+
+To support flexible layouts, you can create empty editor groups. By default, closing the last editor of an editor group will also close the group itself, but you can change this behavior with the new setting workbench.editor.closeEmptyGroups: false:
+
+
+
+
+There are a predefined set of editor layouts in the new View > Editor Layout menu:
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/grid-layout-menu.png?raw=true "Request Pipeline")
+
+Editors that open to the side (for example by clicking the editor toolbar Split Editor action) will by default open to the right-hand side of the active editor. If you prefer to open editors below the active one, configure the new setting workbench.editor.openSideBySideDirection: down.
+
+There are many keyboard commands for adjusting the editor layout with the keyboard alone, but if you prefer to use the mouse, drag and drop is a fast way to split the editor into any direction:
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/grid-dnd.gif?raw=true "Request Pipeline")
