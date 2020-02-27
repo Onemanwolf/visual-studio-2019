@@ -30,10 +30,11 @@ Many more themes have been uploaded to the VS Code [Extension Marketplace](https
 
 Tip: To search for themes, type 'theme' in the Extensions view (`Ctrl+Shift+X`) search box.
 
+<img src="./Images/Themes/ExtensionIcons/Microsoft.VisualStudio.Services.Icons.Default.png" alt="drawing" width="50"/>
 
 ## [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
-[![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/Themes/ExtensionIcons/Microsoft.VisualStudio.Services.Icons.Default.png?raw=true "Request Pipeline")](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+[![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/Themes/ExtensionIcons/Microsoft.VisualStudio.Services.Icons.Default.png?raw=true  "Request Pipeline" )](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
 
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/Themes/themes_hero.gif?raw=true "Request Pipeline")
