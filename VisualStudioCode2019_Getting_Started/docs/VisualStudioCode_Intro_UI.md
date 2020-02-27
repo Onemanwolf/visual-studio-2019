@@ -277,3 +277,95 @@ Editors that open to the side (for example by clicking the editor toolbar Split 
 * There are many keyboard commands for adjusting the editor layout with the keyboard alone, but if you prefer to use the mouse, drag and drop is a fast way to split the editor into any direction:
 
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/grid-dnd.gif?raw=true "Request Pipeline")
+
+>**Pro Tip:** If you press and hold the Alt key while hovering over the toolbar action to split an editor, it will offer to split to the other orientation. This is a fast way to split either to the right or to the bottom.
+
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/Images/grid-alt.gif?raw=true "Request Pipeline")
+
+## Keyboard shortcuts
+
+Here are some handy keyboard shortcuts to quickly navigate between editors and editor groups.
+
+If you'd like to modify the default keyboard shortcuts, see Key Bindings for details.
+
+* Ctrl+PageDown go to the right editor.
+* Ctrl+PageUp go to the left editor.
+* Ctrl+Tab open the previous editor in the editor group MRU  list.
+* Ctrl+1 go to the leftmost editor group.
+* Ctrl+2 go to the center editor group.
+* Ctrl+3 go to the rightmost editor group.
+* Ctrl+F4 close the active editor.
+* Ctrl+K W close all editors in the editor group.
+* Ctrl+K Ctrl+W close all editors.
+
+## Working without Tabs
+
+If you prefer not to use Tabs (tabbed headings), you can disable Tabs (tabbed headings) entirely by setting workbench.
+`editor.showTabs` to false.
+
+## Disable Preview mode
+
+Without Tabs, the **OPEN EDITORS** section of the File Explorer is a quick way to do file navigation. With [preview editor mode](https://code.visualstudio.com/docs/getstarted/userinterface#_preview-mode), files are not added to the **OPEN EDITOR** list nor editor group on single-click open. You can disable this feature through the `workbench.editor.enablePreview` and `workbench.editor.enablePreviewFromQuickOpen` settings.
+
+## Ctrl+Tab to navigate in entire editor history
+
+You can change keybindings for `Ctrl+Tab` to show you a list of all opened editors from the history independent from the active editor group.
+
+Edit your [keybindings](https://code.visualstudio.com/docs/getstarted/keybindings) and add the following:
+
+```powershell
+{ "key": "ctrl+tab", "command": "workbench.action.openPreviousEditorFromHistory" },
+{ "key": "ctrl+tab", "command": "workbench.action.quickOpenNavigateNext", "when": "inQuickOpen" },
+```
+
+## Close an entire group instead of a single editor
+
+If you liked the behavior of VS Code closing an entire group when closing one editor, you can bind the following in your keybindings.
+
+macOS:
+
+```powershell
+{ "key": "cmd+w", "command": "workbench.action.closeEditorsInGroup" }
+```
+
+Windows/Linux:
+
+```powershell
+{ "key": "ctrl+w", "command": "workbench.action.closeEditorsInGroup" }
+```
+
+## Window management
+
+VS Code has some options to control how windows (instances) should be opened or restored between sessions.
+
+The settings `window.openFoldersInNewWindow` and `window.openFilesInNewWindow` are provided to configure opening new windows or reusing the last active window for files or folders and possible values are `default`, `on` and `off`.
+
+If configured to be `default`, we will make the best guess about reusing a window or not based on the context from where the open request was made. Flip this to `on` or `off` to always behave the same. For example, if you feel that picking a file or folder from the File menu should always open into a new window, set this to on.
+
+Note: There can still be cases where this setting is ignored (for example, when using the `-new-window` or `-reuse-window` command-line option).
+
+The `window.restoreWindows` setting tells VS Code how to restore the opened windows of your previous session. By default, VS Code will reopen the last opened window you worked on (setting: `one`). Change this setting to `none` to never reopen any windows and always start with an empty VS Code instance. Change it to `all` to restore all windows you worked on during your previous session or `folders` to only restore windows that had folders opened.
+
+## Next steps
+
+Now that you know the overall layout of VS Code, start to customize the editor to how you like to work by looking at the following topics:
+
+* [Changing the Theme](https://code.visualstudio.com/docs/getstarted/themes) - Set a Color and/or File Icon theme to your preference.
+
+# Common questions
+
+## How can I change the color of the indent guides?
+
+The indent guide colors are customizable as are most VS Code UI elements. To [customize](https://code.visualstudio.com/api/references/theme-color) the indent guides color for your active color theme, use the `workbench.colorCustomizations` [setting](https://code.visualstudio.com/docs/getstarted/settings) and modify the `editorIndentGuide.background` value.
+
+For example, to make the indent guides bright blue, add the following to your `settings.json`:
+
+```powershell
+"workbench.colorCustomizations": {
+    "editorIndentGuide.background": "#0000ff"
+}
+```
+
+## Can I hide the OPEN EDITORS section in the Explorer?
+
+Yes, you can hide the **OPEN EDITORS** list with the `explorer.openEditors.visible` [setting](https://code.visualstudio.com/docs/getstarted/settings), which declares how many items to display before a scroll bar appears. Setting "`explorer.openEditors.visible`": `0` will hide **OPEN EDITORS** when you have an open folder. The list will still be displayed if you are using VS Code to view loose files.
