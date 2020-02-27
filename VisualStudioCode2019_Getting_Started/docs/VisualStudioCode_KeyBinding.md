@@ -12,8 +12,8 @@
 
 # Context
 | Context name | True when |
-|-----|---------------|------------|
-|   Editor contexts  |
+|-----|---------------|
+| Editor contexts  |  |
 | `editorFocus`| An editor has focus, either the text or a widget. | 
 | `editorFocus`| An editor has focus, either the text or a widget. | 
 | `editorFocus`| An editor has focus, either the text or a widget. | 
