@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./css/custom.css">
+
 
 
 
@@ -9,7 +9,7 @@
 |-----|--------|------------|
 | Equality | `==` | `"editorLangId == typescript"` |
 | Inequality | `!=` | `"editorLangId == typescript"` |
-| Or | `||` | `"editorLangId == typescript"` |
+| Or | ``||`` | `"editorLangId == typescript"` |
 | And | `&&` | `"editorLangId == typescript"` |
 
 
