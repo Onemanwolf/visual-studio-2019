@@ -9,7 +9,7 @@
 |-----|--------|------------|
 | Equality | `==` | `"editorLangId == typescript"` |
 | Inequality | `!=` | `"editorLangId == typescript"` |
-| Or | &#124 &#124 | `"editorLangId == typescript"` |
+| Or | &#124; &#124; | `"editorLangId == typescript"` |
 | And | `&&` | `"editorLangId == typescript"` |
 
 
