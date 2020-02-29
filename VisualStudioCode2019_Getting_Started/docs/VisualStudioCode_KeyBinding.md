@@ -173,7 +173,7 @@ The keys above are string representations for virtual keys and do not necessaril
 * ; for VK_OEM_1 (0xBA)
 * = for VK_OEM_PLUS (0xBB)
 * , for VK_OEM_COMMA (0xBC)
-* - for VK_OEM_MINUS (0xBD)
+* `-` for VK_OEM_MINUS (0xBD)
 * . for VK_OEM_PERIOD (0xBE)
 * / for VK_OEM_2 (0xBF)
 * ` for VK_OEM_3 (0xC0)
