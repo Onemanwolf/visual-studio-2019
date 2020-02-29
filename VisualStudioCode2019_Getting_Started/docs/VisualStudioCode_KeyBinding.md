@@ -255,20 +255,148 @@ Below are some of the possible when clause contexts which evaluate to Boolean tr
 | `isMac`| True when the OS is macOS | 
 | `isWindows`| True when the OS is Windows | 
 | `isWeb`| True when accessing the editor from the Web |
- | Mode contexts  |  |
+| Mode contexts  |  |
 | `inDebugMode`| A debug session is running. |
 | `debugType`| True when debug type matches. Example: "debugType == 'node'". |
 | `inSnippetMode`| The editor is in snippet mode. |
 | `inQuickOpen`| The Quick Open drop-down has focus. |
+| Resource contexts |  |
+| `resourceScheme`| True when the resource Uri scheme matches. Example: "resourceScheme == file" |
+| `resourceFilename`| True when the Explorer or editor filename matches. Example: "resourceFilename == gulpfile.js" |
+| `resourceExtname`| True when the Explorer or editor filename extension matches. Example: "resourceExtname == .js" |
+| `resourceLangId`| True when the Explorer or editor title language Id matches. Example: "resourceLangId == markdown" |
+| `isFileSystemResource`| True when the Explorer or editor file is a file system resource that can be handled from a file system provider |
+| `resourceSet`| True when an Explorer or editor file is set |
+| `resource`| The full Uri of the Explorer or editor file |
+| Explorer contexts  |  |
+| `findWidgetVisible`| True if Explorer view is visible. |
+| `explorerViewletFocus`| True if Explorer view has keyboard focus. |
+| `filesExplorerFocus`| True if File Explorer section has keyboard focus. |
+| `openEditorsFocus`| True if OPEN EDITORS section has keyboard focus. |
+| `explorerResourceIsFolder`| True if a folder is selected in the Explorer. |
+| Editor widget contexts  |  |
+| `explorerViewletVisible`| Editor Find widget is visible. |
+| `suggestWidgetVisible`| Suggestion widget (IntelliSense) is visible. |
+| `suggestWidgetMultipleSuggestions`| Multiple suggestions are displayed. |
+| `renameInputVisible`| Rename input text box is visible. |
+| `referenceSearchVisible`| Peek References peek window is open. |
+| `inReferenceSearchEditor`| The Peek References peek window editor has focus. |
+| `config.editor.stablePeek`| Keep peek editors open (controlled by editor.stablePeek setting). |
+| `quickFixWidgetVisible`| Quick Fix widget is visible. |
+| `parameterHintsVisible`| Parameter hints are visible (controlled by editor.parameterHints.enabled setting). |
+| `parameterHintsMultipleSignatures`| Multiple parameter hints are displayed. |
+| Integrated terminal contexts  |  |
+| `terminalFocus`| An integrated terminal has focus. |
+| `terminalIsOpen`| An integrated terminal is opened. |
+| Global UI contexts  |  |
+| `notificationFocus`| Notification has keyboard focus. |
+| `notificationCenterVisible`| Notification Center is visible at the bottom right of VS Code. |
+| `notificationToastsVisible`| Notification toast is visible at the bottom right of VS Code. |
+| `searchViewletVisible`| Search view is open. |
+| `sideBarVisible`| Side Bar is displayed. |
+| `sideBarFocus`| Side Bar has focus. |
+| `panelFocus`| Panel has focus. |
+| `inZenMode`| Window is in Zen Mode. |
+| `isCenteredLayout`| Editor is in centered layout mode. |
+| `inDebugRepl`| Focus is in the Debug Console REPL. |
+| `workspaceFolderCount`| Count of workspace folders. |
+| `replaceActive`| Search view Replace text box is open. |
+| `view`| True when view identifier matches. Example: "view == myViewsExplorerID". |
+| `viewItem`| True when viewItem context matches. Example: "viewItem == someContextValue". |
+| `isFullscreen`| True when window is in fullscreen. |
+| `focusedView`| The identifier of the currently focused view. |
+| `canNavigateBack`| True if it is possible to navigate back. |
+| `canNavigateForward`| True if it is possible to navigate forward. |
+| `canNavigateToLastEditLocation`| True if it is possible to navigate to the last edit location. |
+| Global Editor UI contexts  |  |
+| `textCompareEditorVisible`| At least one diff (compare) editor is visible. |
+| `textCompareEditorActive`| A diff (compare) editor is active. |
+| `editorIsOpen`| True if one editor is open. |
+| `groupActiveEditorDirty`| True when the active editor in a group is dirty. |
+| `groupEditorsCount`| Number of editors in a group. |
+| `activeEditorGroupEmpty`| True if the active editor group has no editors. |
+| `activeEditorGroupIndex`| Index of the active editor in an group (beginning with 1). |
+| `activeEditorGroupLast`| True when the active editor in an group is the last one. |
+| `multipleEditorGroups`| True when multiple editor groups are present. |
+| `editorPinned`| True when the active editor in a group is pinned (not in preview mode). |
+| `activeEditor`| The identifier of the active editor in a group. |
+| Configuration settings contexts |  |
+| `config.editor.minimap.enabled`| True when the setting editor.minimap.enabled is true. |
+
+>**Note**: You can use any user or workspace setting that evaluates to a boolean here with the prefix "config.".
 
 
+The list above isn't exhaustive and you may see some when contexts for specific VS Code UI in the Default Keyboard Shortcuts.
 
+## Active/Focused view or panel 'when' clause context
 
+You can have a keybinding that is enabled only when a specific view or panel is visible.
 
+| Context name | True when |
+|-----|---------------|
+| Editor contexts  |  |
+| activeViewlet | True when view is visible. Example: "activeViewlet == 'workbench.view.explorer'" | 
+| activePanel | True when panel is visible. Example: "activePanel == 'workbench.panel.output'" | 
+| focusedView | True when view is focused. Example: "focusedView == myViewsExplorerID | 
 
+View Identifiers:
 
+* workbench.view.explorer - File Explorer
+* workbench.view.search - Search
+* workbench.view.scm - Source Control
+* workbench.view.debug - Debug
+* workbench.view.extensions - Extensions
 
+Panel Identifiers:
 
+* workbench.panel.markers - Problems
+* workbench.panel.output - Output
+* workbench.panel.repl - Debug Console
+* workbench.panel.terminal - Integrated Terminal
+* workbench.panel.comments - Comments
+* workbench.view.search - Search when search.location is set to panel
+
+If you want a keybinding that is enabled only when a specific view or panel has focus, use sideBarFocus or panelFocus in combination with activeViewlet or activiewFocus.
+
+For example, the when clause below is true only when the File Explorer has focus:
+
+```json
+"sideBarFocus && activeViewlet == 'workbench.view.explorer'"
+```
+
+### key-value when clause operator
+There is a key-value pair operator for when clauses. The expression key =~ value treats the right hand side as a regular expression to match against the left hand side. For example, to contribute context menu items for all Docker files, one could use:
+
+```json
+   "when": "resourceFilename =~ /docker/"
+```
+
+### Custom keybindings for refactorings
+
+The `editor.action.codeAction` command lets you configure keybindings for specific [Refactorings](https://code.visualstudio.com/docs/editor/refactoring) (Code Actions). For example, the keybinding below triggers the **Extract function** refactoring Code Actions:
+
+```json
+{
+  "key": "ctrl+shift+r ctrl+e",
+  "command": "editor.action.codeAction",
+  "args": {
+    "kind": "refactor.extract.function"
+  }
+}
+```
+This is covered in depth in the [Refactoring](https://code.visualstudio.com/docs/editor/refactoring#_keybindings-for-code-actions) topic where you can learn about different kinds of Code Actions and how to prioritize them in the case of multiple possible refactorings.
+
+## Default Keyboard Shortcuts
+
+You can view all default keyboard shortcuts in VS Code in the **Keyboard Shortcuts** editor with the **Show Default Keybindings** command in the **More Actions** (...) menu. This applies the `@source:default` filter to the **Keyboard Shortcuts** editor (**Source** is 'Default').
+
+<img src="./Images/KeyBindings/default-keyboard-shortcuts.png" alt="vscode-icons" />
+
+You can view the default keyboard shortcuts as a JSON file using the command **Preferences** : **Open Default** **Keyboard Shortcuts (JSON)**.
+
+>**Note**: The following keys are rendered assuming a standard US keyboard layout. If you use a different keyboard layout, please [read below](#Keyboard-layouts). You can view the currently active keyboard shortcuts in VS Code in the Command Palette (View -> Command Palette) or in the Keyboard Shortcuts editor (File > Preferences > Keyboard Shortcuts).
+
+Some commands included below do not have default keyboard shortcuts and so are displayed as `unassigned` but you can assign your own keybindings.
 
 
 # Basic Editing
