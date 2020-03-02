@@ -18,7 +18,8 @@ summary {
 
 
 body table {
- border-width: 0;
+ border-width: 0rem;
+ border-left-width: 0rem;
 }
 
 audio,
