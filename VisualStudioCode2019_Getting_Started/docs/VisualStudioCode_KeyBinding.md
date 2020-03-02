@@ -40,7 +40,7 @@ Below are links to the three platform-specific versions:
 If you have many extensions installed or you have customized your keyboard shortcuts, you can sometimes have keybinding conflicts where the same keyboard shortcut is mapped to several commands. This can result in confusing behavior, especially if different keybindings are going in and out of scope as you move around the editor.
 
 The **Keyboard Shortcuts** editor has a context menu command **Show Same Keybindings**, which will filter the keybindings based on a keyboard shortcut to display conflicts.
- 
+
  <img src="./Images/KeyBindings/show-conflicts-menu.png" alt="vscode-icons" />
 
  Pick a command with the keybinding you think is overloaded and you can see if multiple commands are defined, the source of the keybindings and when they are active.
@@ -66,7 +66,8 @@ You can also open the keybindings.json file from the Command Palette (Ctrl+Shift
 
 ## Keyboard rules
 
-The keyboard shortcuts dispatching is done by analyzing a list of rules that are expressed in JSON. Here are some examples:
+The keyboard shortcuts dispatching is done by analyzing a list of rules that are expressed in JSON. Here are some examples:****
+
 ```json
 // Keybindings that are active when the focus is in the editor
 { "key": "home",            "command": "cursorHome",                  "when": "editorTextFocus" },
@@ -109,9 +110,9 @@ The following modifiers are accepted:
 
 Platform | Modifiers |
 ---------|----------|
- macOS | `Ctrl+`, `Shift+`, `Alt+`, `Cmd+` 
- Windows | `Ctrl+`, `Shift+`, `Alt+`,` Win+` 
- Linux | `Ctrl+`, `Shift+`, `Alt+`,` Meta+` 
+ macOS | `Ctrl+`, `Shift+`, `Alt+`, `Cmd+`
+ Windows | `Ctrl+`, `Shift+`, `Alt+`,` Win+`
+ Linux | `Ctrl+`, `Shift+`, `Alt+`,` Meta+`
 
 
  The following keys are accepted:
@@ -241,19 +242,19 @@ Below are some of the possible when clause contexts which evaluate to Boolean tr
 | Context name | True when |
 |-----|---------------|
 | Editor contexts  |  |
-| `editorFocus`| An editor has focus, either the text or a widget. | 
-| `editorTextFocus`| The text in an editor has focus (cursor is blinking). | 
-| `textInputFocus`| Any editor has focus (regular editor, debug REPL, etc.). | 
-| `inputFocus`| Any text input area has focus (editors or text boxes). | 
-| `editorHasSelection`| Text is selected in the editor. | 
-| `editorHasMultipleSelections`| Multiple regions of text are selected (multiple cursors). | 
-| `editorReadonly`| The editor is read only. | 
-| `editorLangId`| True when the editor's associated language Id matches. Example: "editorLangId == typescript". | 
-| `isInDiffEditor`| The active editor is a difference editor. | 
+| `editorFocus`| An editor has focus, either the text or a widget. |
+| `editorTextFocus`| The text in an editor has focus (cursor is blinking). |
+| `textInputFocus`| Any editor has focus (regular editor, debug REPL, etc.). |
+| `inputFocus`| Any text input area has focus (editors or text boxes). |
+| `editorHasSelection`| Text is selected in the editor. |
+| `editorHasMultipleSelections`| Multiple regions of text are selected (multiple cursors). |
+| `editorReadonly`| The editor is read only. |
+| `editorLangId`| True when the editor's associated language Id matches. Example: "editorLangId == typescript". |
+| `isInDiffEditor`| The active editor is a difference editor. |
 | Operating system contexts  |  |
-| `isLinux`| True when the OS is Linux | 
-| `isMac`| True when the OS is macOS | 
-| `isWindows`| True when the OS is Windows | 
+| `isLinux`| True when the OS is Linux |
+| `isMac`| True when the OS is macOS |
+| `isWindows`| True when the OS is Windows |
 | `isWeb`| True when accessing the editor from the Web |
 | Mode contexts  |  |
 | `inDebugMode`| A debug session is running. |
@@ -335,9 +336,9 @@ You can have a keybinding that is enabled only when a specific view or panel is 
 | Context name | True when |
 |-----|---------------|
 | Editor contexts  |  |
-| activeViewlet | True when view is visible. Example: "activeViewlet == 'workbench.view.explorer'" | 
-| activePanel | True when panel is visible. Example: "activePanel == 'workbench.panel.output'" | 
-| focusedView | True when view is focused. Example: "focusedView == myViewsExplorerID | 
+| activeViewlet | True when view is visible. Example: "activeViewlet == 'workbench.view.explorer'" |
+| activePanel | True when panel is visible. Example: "activePanel == 'workbench.panel.output'" |
+| focusedView | True when view is focused. Example: "focusedView == myViewsExplorerID |
 
 View Identifiers:
 
