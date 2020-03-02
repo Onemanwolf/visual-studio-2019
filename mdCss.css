@@ -16,6 +16,11 @@ summary {
     display: block;
 }
 
+
+body .table {
+ border-width: 0;
+}
+
 audio,
 canvas,
 video {
@@ -249,7 +254,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #859900;
+    color: #5c96d8;
 }
 
 pre {
