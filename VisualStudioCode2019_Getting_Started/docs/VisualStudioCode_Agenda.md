@@ -6,36 +6,35 @@ Why VS Code? - Read about the design philosophy and architecture of VS Code.
 
 # Editor VS IDE
 
-| Editor  | IDE Visual Studio  |
-| --------------- | -----------------  |
-| Lighweigth/fast | Project system     |
-| file/folders    | Code understanding |
-| many languages  | debug              |
-| many workflows  | intergrated build  |
-| keyboard centered | File>New wizard  |
-|                 | designers          |
-|                 | ALM integration    |
-|                 | platform tools     |
+| Editor            | IDE Visual Studio  |
+| ----------------- | ------------------ |
+| Lighweigth/fast   | Project system     |
+| file/folders      | Code understanding |
+| many languages    | debug              |
+| many workflows    | intergrated build  |
+| keyboard centered | File>New wizard    |
+|                   | designers          |
+|                   | ALM integration    |
+|                   | platform tools     |
 
->**Note**: Application Lifetime Management(ALM)
+> **Note**: Application Lifetime Management(ALM)
 
 **Editors**: general are light weight and fast they don't have wizards but have many tools to help build projects. Allows for more customizing of tooling and "_combines **simplicity of a code editor** with what developers need for their **code-edit-debug-cyles**_" --Eric Gamma
 
-**IDE**: general are large installs are slower to spin up and install extensions they provide platforming tools for example Azure and have very powerful debuging tools.  But the more tools you have built in the slows you down.
+**IDE**: general are large installs are slower to spin up and install extensions they provide platforming tools for example Azure and have very powerful debuging tools. But the more tools you have built in the slows you down.
 
 Visual studio code gives use some of both worlds by providing some of the features you get in a full IDE in **Visual Studio Code**:
 
-|Visual Studio Code||
-|-|-|
-|Lighweigth/fast|
-|file/folders **with project context**|
-|many languages|
-|many workflows|
-|keyboard centered|
-| **code understanding (some languages**)|
-|**debug**|
-|**task running** |
-
+| Visual Studio Code                      |     |
+| --------------------------------------- | --- |
+| Lighweigth/fast                         |
+| file/folders **with project context**   |
+| many languages                          |
+| many workflows                          |
+| keyboard centered                       |
+| **code understanding (some languages**) |
+| **debug**                               |
+| **task running**                        |
 
 # Top Extensions
 
@@ -71,9 +70,9 @@ To get the most out of Visual Studio Code, start by reviewing a few introductory
 
 [Debug](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Debug.md) Debugging code in Visual Studio bring VS Code closer to being an IDE but more like a smart editior.
 
-Tips and Tricks - Jump right in with Tips and Tricks to become a VS Code power user.
+Snippets and Emmet - Jump right in with Tips and Tricks to become a VS Code power user.
 
-Azure - VS Code is great for deploying your web applications to the cloud.
+Azure - Azure Tooling just works in VS Code.
 
 Extension API - Learn how to write a VS Code extension.
 
