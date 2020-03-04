@@ -26,23 +26,26 @@ Enable additional languages, themes, debuggers, commands, and more. VS Code's gr
 ---------|----------|---------|----------|
  [Prettier - Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) | [Debugger](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) | [Java](https://marketplace.visualstudio.com/items?itemName=redhat.java) | [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
-
+Vue VS Code Extensions sarah.drasner
+Angular Essentials
+React Food Truck
 
 
 # Agenda
+
 To get the most out of Visual Studio Code, start by reviewing a few introductory topics:
 
 * Intro Videos - Begin your journey with VS Code through these introductory videos.
 
 [Setup](https://code.visualstudio.com/docs/setup/setup-overview) - Install VS Code for your platform and configure the tool set for your development needs.
 
-User Interface - Introduction to the basic UI, commands, and features of the VS Code editor.
+Create New .Net Core App
 
-Settings - Customize VS Code for how you like to work.
+[User Interface](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Intro_UI.md) - Introduction to the basic UI, commands, and features of the VS Code editor.
 
-Languages - Learn about VS Code's support for your favorite programming languages.
+[Settings](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Settings.md) - Customize VS Code for how you like to work.
 
-Node.js - This tutorial gets you quickly running and debugging a Node.js web app.
+
 
 Tips and Tricks - Jump right in with Tips and Tricks to become a VS Code power user.
 

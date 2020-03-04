@@ -1,0 +1,7 @@
+db.Reservation.find();
+
+db.Reservation.findOne({ Price: '2054.93' });
+
+db.Reservation.getDB();
+
+//mongodb://127.0.0.1:27017

@@ -1,3 +1,4 @@
+
 # Refactoring
 
 [Source code refactoring](https://en.wikipedia.org/wiki/Code_refactoring) can improve the quality and maintainability of your project by restructuring your code while not modifying the runtime behavior. Visual Studio Code supports refactoring operations (refactorings) such as [Extract Method](https://refactoring.com/catalog/extractFunction.html) and [Extract Variable](https://refactoring.com/catalog/extractVariable.html) to improve your code base from within your editor.
@@ -13,7 +14,7 @@ In VS Code, Code Actions can provide both refactorings and Quick Fixes for detec
 
 If you'd just like to see refactorings without Quick Fixes, you can use the **Refactor** command (`Ctrl+Shift+R`).
 
->**Note**: If you prefer to not see the Code Action lightbulb in your editor, you can disable lightbulbs with the `editor.lightbulb.enable` [setting](https://code.visualstudio.com/docs/getstarted/settings). You can still open Quick Fixes through Quick Fix command and `Ctrl+`. keyboard shortcut.
+> **Note**: If you prefer to not see the Code Action lightbulb in your editor, you can disable lightbulbs with the `editor.lightbulb.enable` [setting](https://code.visualstudio.com/docs/getstarted/settings). You can still open Quick Fixes through Quick Fix command and `Ctrl+`. keyboard shortcut.
 
 # Refactoring actions
 
@@ -35,7 +36,6 @@ Renaming is a common operation related to refactoring source code and VS Code ha
 
 <img src="./Images/Refactor/rename.png" alt="vscode-icons" width="" />
 
-
 ## Keybindings for Code Actions
 
 The `editor.action.codeAction` command lets you configure keybindings for specific Code Actions. This keybinding, for example, triggers the **Extract function** refactoring Code Actions:
@@ -54,7 +54,6 @@ Code Action kinds are specified by extensions using the enhanced CodeActionProvi
 
 Using the above keybinding, if only a single `"refactor.extract.function"` Code Action is available, it will be automatically applied. If multiple Extract function Code Actions are available, we bring up a context menu to select them:
 <img src="./Images/Refactor/code-action-context-menu.png" alt="vscode-icons" width="" />
-
 
 You can also control how/when Code Actions are automatically applied using the apply argument:
 
@@ -94,24 +93,19 @@ This keybinding uses "preferred": true to create a refactoring that always tries
 
 You can find extensions that support refactoring by looking in the VS Code [Marketplace](https://marketplace.visualstudio.com/vscode). You can go to the Extensions view (`Ctrl+Shift+X`) and type 'refactor' in the search box. You can then sort by install count or ratings to see which extensions are popular.
 
+| [<img src="./Images/Refactor/python.png" alt="vscode-icons" width="60"/>](https://marketplace.visualstudio.com/items?itemName=ms-python.python) | [<img src="./Images/Refactor/java.png" alt="vscode-icons" width="60" />](https://marketplace.visualstudio.com/items?itemName=redhat.java) | [<img src="./Images/Refactor/php.png" alt="vscode-icons" width="60"/>](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense) | [<img src="./Images/Refactor/rust.png" alt="vscode-icons" width="60" />](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)                                                                  | [Java](https://marketplace.visualstudio.com/items?itemName=redhat.java)                                                                   | [PHP](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)                                                                  | [Rust](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)                                                                   |
 
-
-
-
-|[<img src="./Images/Refactor/python.png" alt="vscode-icons" width="60"/>](https://marketplace.visualstudio.com/items?itemName=ms-python.python)| [<img src="./Images/Refactor/java.png" alt="vscode-icons" width="60" />](https://marketplace.visualstudio.com/items?itemName=redhat.java)|[<img src="./Images/Refactor/php.png" alt="vscode-icons" width="60"/>](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)|[<img src="./Images/Refactor/rust.png" alt="vscode-icons" width="60" />](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)|
----------|----------|---------|----------|
- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) | [Java](https://marketplace.visualstudio.com/items?itemName=redhat.java) | [PHP](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense) | [Rust](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
-
-
- >**Tip**: The extensions shown above are dynamically queried. Click on an extension tile above to read the description and reviews to decide which extension is best for you.
+> **Tip**: The extensions shown above are dynamically queried. Click on an extension tile above to read the description and reviews to decide which extension is best for you.
 
 ## Next steps
 
-* [Intro Video - Code Editing](https://code.visualstudio.com/docs/introvideos/codeediting) - Watch an introductory video on code editing features.
+- [Intro Video - Code Editing](https://code.visualstudio.com/docs/introvideos/codeediting) - Watch an introductory video on code editing features.
 
-* [Code Navigation](https://code.visualstudio.com/docs/editor/editingevolved) - VS Code lets you move quickly through your source code.
+- [Code Navigation](https://code.visualstudio.com/docs/editor/editingevolved) - VS Code lets you move quickly through your source code.
 
-* [Debugging](https://code.visualstudio.com/docs/editor/debugging) - Learn about debugging with VS Code.
+- [Debugging](https://code.visualstudio.com/docs/editor/debugging) - Learn about debugging with VS Code.
 
 # Common questions
 
