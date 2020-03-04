@@ -35,17 +35,20 @@ React Food Truck
 
 To get the most out of Visual Studio Code, start by reviewing a few introductory topics:
 
-* Intro Videos - Begin your journey with VS Code through these introductory videos.
 
 [Setup](https://code.visualstudio.com/docs/setup/setup-overview) - Install VS Code for your platform and configure the tool set for your development needs.
 
-Create New .Net Core App
+[Create New .Net Core App](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Intro_UI.md)
 
 [User Interface](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Intro_UI.md) - Introduction to the basic UI, commands, and features of the VS Code editor.
 
 [Settings](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Settings.md) - Customize VS Code for how you like to work.
 
+[Themes](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Themes.md) You can set up many themes and install more.
 
+[KeyBinding](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_KeyBinding.md) and Keymapping Learn and Customize Keybinds cuz its all about the keyboard.
+
+Debug Debugging code in Visual Studio bring VS Code closer to being an IDE but more like a smart editior.
 
 Tips and Tricks - Jump right in with Tips and Tricks to become a VS Code power user.
 
