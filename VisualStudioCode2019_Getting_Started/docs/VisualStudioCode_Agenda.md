@@ -58,7 +58,7 @@ To get the most out of Visual Studio Code, start by reviewing a few introductory
 
 [Setup](https://code.visualstudio.com/) - Install VS Code for your platform and configure the tool set for your development needs.
 
-[Create New .Net Core App](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Intro_UI.md)
+[Create New .Net Core App](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Create_Project_SDK.md)
 
 [User Interface](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Intro_UI.md) - Introduction to the basic UI, commands, and features of the VS Code editor.
 
