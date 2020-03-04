@@ -23,3 +23,5 @@ Art, Photography, Digital Illustration.
 **Agile Methods:** DevOps, Agile Srum, Agile Scale, Spec Flow, Unit Testing, Behavioral Driven Design, Git(Distributed Version Control), Team Foundation Version Control (TFVC) (Centralized Version Control)
 
 **Heros:** Ragnar Lodbrok, John Wayne, Batman, Martin Fowler, Uncle Bob, Eric Evans, The Gang of Four
+
+[Agenda](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Agenda.md)
