@@ -2,7 +2,7 @@
 
 One of the key features of Visual Studio Code is its great debugging support. VS Code's built-in debugger helps accelerate your edit, compile and debug loop.
 
-<img src="./Images/DebugImg/debugging_hero.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImgImg/debugging_hero.png" alt="vscode-icons" width="" />
 
 
 
@@ -30,19 +30,19 @@ It is helpful to first create a sample [Node.js](https://nodejs.org/en/) applica
 
 To bring up the Debug view, select the Debug icon in the **Activity Bar** on the side of VS Code. You can also use the keyboard shortcut `Ctrl+Shift+D`.
 
-<img src="./Images/Debug/debugicon.png" alt="vscode-icons" width="300" />
+<img src="./Images/DebugImg/debugicon.png" alt="vscode-icons" width="300" />
 
 The Debug view displays all information related to debugging and has a top bar with debugging commands and configuration settings.
 
 If debugging is not yet configured (no `launch.json` has been created) we show the Debug start view.
 
-<img src="./Images/Debug/debug-start.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/debug-start.png" alt="vscode-icons" width="" />
 
 ## Debug menu
 
 The top-level **Debug** menu has the most common debug commands:
 
-<img src="./Images/Debug/debug-menu.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/debug-menu.png" alt="vscode-icons" width="" />
 
 ## Launch configurations
 
@@ -52,11 +52,11 @@ However, for most debugging scenarios, creating a launch configuration file is b
 
 To create a `launch.json` file, open your project folder in VS Code (**File** > **Open** **Folder**) and then select the Configure gear icon on the Debug view top bar.
 
-<img src="./Images/Debug/launch-configuration.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/launch-configuration.png" alt="vscode-icons" width="" />
 
 VS Code will try to automatically detect your debug environment, but if this fails, you will have to choose it manually:
 
-<img src="./Images/Debug/debug-environments.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/debug-environments.png" alt="vscode-icons" width="" />
 
 Here is the launch configuration generated for Node.js debugging:
 
@@ -76,7 +76,7 @@ Here is the launch configuration generated for Node.js debugging:
 
 If you go back to the File Explorer view (`Ctrl+Shift+E`), you'll see that VS Code has created a `.vscode` folder and added the `launch.json` file to your workspace.
 
-<img src="./Images/Debug/launch-json-in-explorer.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/launch-json-in-explorer.png" alt="vscode-icons" width="" />
 
 > **Note**: You can debug a simple application even if you don't have a folder open in VS Code, but it is not possible to manage launch configurations and set up advanced debugging. The VS Code Status Bar is purple if you do not have a folder open.
 
@@ -84,7 +84,7 @@ Note that the attributes available in launch configurations vary from debugger t
 
 Do not assume that an attribute that is available for one debugger automatically works for other debuggers too. If you see green squiggles in your launch configuration, hover over them to learn what the problem is and try to fix them before launching a debug session.
 
-<img src="./Images/Debug/launch-json-intellisense .png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/launch-json-intellisense .png" alt="vscode-icons" width="" />
 
 Review all automatically generated values and make sure that they make sense for your project and debugging environment.
 
@@ -106,7 +106,7 @@ To add a new configuration to an existing `launch.json`, use one of the followin
 - Press the **Add Configuration** button to invoke snippet IntelliSense at the start of the array.
 - Choose **Add Configuration** option in the Debug menu.
 
-<img src="./Images/Debug/add-config.gif" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/add-config.gif" alt="vscode-icons" width="" />
 
 VS Code also supports compound launch configurations for starting multiple configurations at the same time; for more details, please read this [section](#Compound-launch-configurations).
 
@@ -116,17 +116,17 @@ Alternatively you can run your configuration through the **Command Palette **(C`
 
 As soon as a debugging session starts, the **DEBUG CONSOLE** panel is displayed and shows debugging output, and the Status Bar changes color (orange for default color themes):
 
-<img src="./Images/Debug/debug-session.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/debug-session.png" alt="vscode-icons" width="" />
 
 In addition, the **debug status** appears in the Status Bar showing the active debug configuration. By selecting the debug status, a user can change the active launch configuration and start debugging without needing to open the Debug view.
 
-<img src="./Images/Debug/debug-status.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/debug-status.png" alt="vscode-icons" width="" />
 
 ## Debug actions
 
 Once a debug session starts, the **Debug toolbar** will appear on the top of the editor.
 
-<img src="./Images/Debug/toolbar.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/toolbar.png" alt="vscode-icons" width="" />
 
 Continue / Pause `F5`
 Step Over `F10`
@@ -155,11 +155,11 @@ Breakpoints can be toggled by clicking on the **editor margin** or using `F9` on
 
 The **Reapply All Breakpoints** command sets all breakpoints again to their original location. This is helpful if your debug environment is "lazy" and "misplaces" breakpoints in source code that has not yet been executed.
 
-<img src="./Images/Debug/breakpoints.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/breakpoints.png" alt="vscode-icons" width="" />
 
 Optionally breakpoints can be shown in the editor's overview ruler by enabling the setting `debug.showBreakpointsInOverviewRuler`:
 
-<img src="./Images/Debug/bpts-in-overview.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/bpts-in-overview.png" alt="vscode-icons" width="" />
 
 ## Logpoints
 
@@ -167,7 +167,7 @@ A Logpoint is a variant of a breakpoint that does not "break" into the debugger 
 
 A Logpoint is represented by a "diamond" shaped icon. Log messages are plain text but can include expressions to be evaluated within curly braces ('{}').
 
-<img src="./Images/Debug/log-points.gif" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/log-points.gif" alt="vscode-icons" width="" />
 
 Just like regular breakpoints, Logpoints can be enabled or disabled and can also be controlled by a condition and/or hit count.
 
@@ -177,23 +177,23 @@ Just like regular breakpoints, Logpoints can be enabled or disabled and can also
 
 Variables can be inspected in the **VARIABLES** section of the Debug view or by hovering over their source in the editor. Variable values and expression evaluation are relative to the selected stack frame in the **CALL STACK** section.
 
-<img src="./Images/Debug/variables.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/variables.png" alt="vscode-icons" width="" />
 
 Variable values can be modified with the **Set Value** action from the variable's context menu.
 
 Variables and expressions can also be evaluated and watched in the Debug view's **WATCH** section.
 
-<img src="./Images/Debug/watch.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/watch.png" alt="vscode-icons" width="" />
 
 Variable names and values can be filtered by typing while the focus is on the VARIABLES section
 
-<img src="./Images/Debug/filtering-variables.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/filtering-variables.png" alt="vscode-icons" width="" />
 
 ## Launch.json attributes
 
 There are many `launch.json` attributes to help support different debuggers and debugging scenarios. As mentioned above, you can use IntelliSense (`Ctrl+Space`) to see the list of available attributes once you have specified a value for the `type` attribute.
 
-<img src="./Images/Debug/launch-json-suggestions.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/launch-json-suggestions.png" alt="vscode-icons" width="" />
 
 The following attributes are mandatory for every launch configuration:
 
@@ -310,7 +310,7 @@ A powerful VS Code debugging feature is the ability to set conditions based on e
 - **Hit count**: The 'hit count' controls how many times a breakpoint needs to be hit before it will 'break' execution. Whether a 'hit count' is respected and the exact syntax of the expression vary among debugger extensions.
   You can add a condition and/or hit count when creating the breakpoint (with the **Add Conditional Breakpoint** action) or when modifying an existing one (with the **Edit Breakpoint** action). In both cases, an inline text box with a drop-down menu opens where you can enter expressions:
 
-<img src="./Images/Debug/hitCount.gif" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/hitCount.gif" alt="vscode-icons" width="" />
 
 If a debugger does not support conditional breakpoints, the **Add Conditional Breakpoint** action will be missing.
 
@@ -336,7 +336,7 @@ If a debugger supports data breakpoints they can be set from the **VARIABLES** v
 
 Expressions can be evaluated with the **Debug Console** REPL (Read-Eval-Print Loop) feature. To open the Debug Console, use the **Debug Console** action at the top of the Debug pane or use the **View**: **Debug** **Console** command (`Ctrl+Shift+Y`). Expressions are evaluated after you press `Enter` and the Debug Console REPL shows suggestions as you type. If you need to enter multiple lines, use `Shift+Enter` between the lines and then send all lines for evaluation with `Enter`. Debug Console input uses the mode of the active editor, which means that the Debug Console input supports syntax coloring, indentation, auto closing of quotes, and other language features.
 
-<img src="./Images/Debug/debugconsole.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/debugconsole.png" alt="vscode-icons" width="" />
 
 > **Note**: You must be in a running debug session to use the Debug Console REPL.
 
@@ -373,11 +373,11 @@ Using multi-target debugging is simple: after you've started a first debug sessi
 
 The individual sessions now show up as top-level elements in the **CALL STACK** view.
 
-<img src="./Images/Debug/debug-callstack.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/debug-callstack.png" alt="vscode-icons" width="" />
 
 The debug toolbar shows the currently active session (and all other sessions are available in a drop-down menu).
 
-<img src="./Images/Debug/debug-actions-widget.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/debug-actions-widget.png" alt="vscode-icons" width="" />
 
 - Debug actions (for example, all actions in the debug toolbar) are performed on the active session. The active session can be changed either by using the drop-down menu in the debug toolbar or by selecting a different element in the **CALL STACK** view.
 
@@ -474,7 +474,7 @@ To simplify things a bit, most properties are optional and we use the following 
 
 And here the **serverReadyAction** feature in action:
 
-<img src="./Images/Debug/server-ready.gif" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/server-ready.gif" alt="vscode-icons" width="" />
 
 ## Next steps
 
