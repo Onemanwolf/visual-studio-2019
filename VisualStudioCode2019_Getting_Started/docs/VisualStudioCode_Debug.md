@@ -2,7 +2,7 @@
 
 One of the key features of Visual Studio Code is its great debugging support. VS Code's built-in debugger helps accelerate your edit, compile and debug loop.
 
-<img src="./Images/Debug/debugging_hero.png" alt="vscode-icons" width="" />
+<img src="./Images/DebugImg/debugging_hero.png" alt="vscode-icons" width="" />
 
 
 
