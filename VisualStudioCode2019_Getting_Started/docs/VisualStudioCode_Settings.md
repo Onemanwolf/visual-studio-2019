@@ -2719,3 +2719,5 @@ The easiest way to reset VS Code back to the default settings is to clear your u
 ## When does it make sense to use workspace settings?
 
 If you're using a workspace that needs custom settings but you don't want to apply them to your other VS Code projects. A good example is language-specific linting rules.
+
+[Themes](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Themes.md)

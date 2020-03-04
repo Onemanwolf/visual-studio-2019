@@ -66,20 +66,20 @@ To get the most out of Visual Studio Code, start by reviewing a few introductory
 
 [Themes](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Themes.md) You can set up many themes and install more.
 
-[KeyBinding](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_KeyBinding.md) and Keymapping Learn and Customize Keybinds cuz its all about the keyboard.
-
-[Debug](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Debug.md) Debugging code in Visual Studio bring VS Code closer to being an IDE but more like a smart editior.
-
-Snippets and Emmet - Jump right in with Tips and Tricks to become a VS Code power user.
-
-Azure - Azure Tooling just works in VS Code.
-
-Extension API - Learn how to write a VS Code extension.
-
-Why VS Code? - Read about the design philosophy and architecture of VS Code.
-
 [Keyboard Shortcuts](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_KeyBinding.md)
 Increase your productivity with VS Code's keyboard shortcuts.
 
-Downloads
-Download VS Code - Quickly find the appropriate install for your platform (Windows, macOS and Linux)
+[Debug](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Debug.md) Debugging code in Visual Studio bring VS Code closer to being an IDE but more like a smart editior.
+
+[Snippets and Emmet](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Snippets_emmit.md) - Jump right in with Tips and Tricks to become a VS Code power user.
+
+Azure - Azure Tooling just works in VS Code.
+* Demo
+
+
+
+
+
+
+
+

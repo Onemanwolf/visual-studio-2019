@@ -19,7 +19,7 @@ The active color theme is stored in your user [settings](https://code.visualstud
 ```powershell
   // Specifies the color theme used in the workbench.
   "workbench.colorTheme": "Default Dark+"
-```  
+```
 >Tip: By default, the theme is stored in your user settings and applies globally to all workspaces. You can also configure a workspace specific theme. To do so, set a theme in the Workspace [settings](https://code.visualstudio.com/docs/getstarted/settings#_creating-user-and-workspace-settings).
 
 ## Color Themes from the Marketplace
@@ -135,3 +135,5 @@ Themes are just one way to customize VS Code. If you'd like to learn more about 
 * [Extension API](https://code.visualstudio.com/api) - Learn about other ways to extend VS Code.
 * [Color Theme](https://code.visualstudio.com/api/extension-guides/color-theme) - Color Theme extension API.
 * [Icon Theme](https://code.visualstudio.com/api/extension-guides/icon-theme) - Icon Theme extension API.
+
+[Keyboard Shortcuts](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_KeyBinding.md)

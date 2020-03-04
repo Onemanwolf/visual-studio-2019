@@ -19,7 +19,7 @@ Each time you start VS Code, it opens up in the same state it was in when you la
 
 Open files in each editor are displayed with tabbed headers ([Tabs](https://code.visualstudio.com/docs/getstarted/userinterface#_tabs)) at the top of the editor region. To learn more about tabbed headers, see the Tabs section below.
 
->Tip:           
+>Tip:
 >You can move the Side Bar to the right hand side (View > Move Side Bar Right) or toggle its visibility ```(Ctrl+B)```.
 
 # Side by side editing
@@ -369,3 +369,5 @@ For example, to make the indent guides bright blue, add the following to your `s
 ## Can I hide the OPEN EDITORS section in the Explorer?
 
 Yes, you can hide the **OPEN EDITORS** list with the `explorer.openEditors.visible` [setting](https://code.visualstudio.com/docs/getstarted/settings), which declares how many items to display before a scroll bar appears. Setting "`explorer.openEditors.visible`": `0` will hide **OPEN EDITORS** when you have an open folder. The list will still be displayed if you are using VS Code to view loose files.
+
+[Settings](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Settings.md)

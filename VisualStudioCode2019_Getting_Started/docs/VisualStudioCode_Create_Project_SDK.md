@@ -22,7 +22,7 @@
 
 7. You should be prompted to install Required assets to build and debug are missing from DN_App Add them? **Click** `Yes`.
 
-8. `Ctrl+`` In the terminal type`dotnet run` your app should build and run on port 5001 and 5000.
+8. ` Ctrl+`` In the terminal type `dotnet run` your app should build and run on port 5001 and 5000.
 
 9. Now we see we have an .Net App up and running. Now in the Visual Code terminal that we ran the app from, type Ctrl+C to shutdown the application.
 
@@ -33,3 +33,5 @@
 > **Note**: Powershell is default you can add different terminals by editing your settings `"terminal.integrated.shell.windows": "cmd.exe"`
 
 Another powerful tool for build app in command line is [Yeoman](https://yeoman.io/learning/)
+
+[User Interface](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Intro_UI.md)

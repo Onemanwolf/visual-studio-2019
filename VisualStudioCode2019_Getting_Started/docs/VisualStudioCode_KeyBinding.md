@@ -408,3 +408,4 @@ Some commands included below do not have default keyboard shortcuts and so are d
 |     |        |            |
 
 
+[Debug](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Debug.md) 
