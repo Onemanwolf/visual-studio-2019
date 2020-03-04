@@ -73,6 +73,9 @@ Increase your productivity with VS Code's keyboard shortcuts.
 
 [Snippets and Emmet](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Snippets_emmit.md) - Jump right in with Tips and Tricks to become a VS Code power user.
 
+[Refactor](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Create_Dotnet_Refactor.md)  Refactor your code  is made simple Visual Studio Code.
+
+
 Azure - Azure Tooling just works in VS Code.
 * Demo
 

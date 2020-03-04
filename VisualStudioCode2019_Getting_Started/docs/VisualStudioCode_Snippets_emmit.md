@@ -115,3 +115,6 @@ Emmet with multi-cursors
 You can use most of the Emmet actions with multi-cursors as well:
 
 <img src="./Images/emmet-multi-cursor.gif" alt="vscode-icons" width=""/>
+
+
+[Refactor](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Create_Dotnet_Refactor.md)

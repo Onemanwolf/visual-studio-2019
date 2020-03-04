@@ -502,3 +502,5 @@ Debugging of Node.js-based applications is supported on Linux, macOS, and Window
 ## I do not see any launch configurations in the debug view drop-down. What is wrong?
 
 The most common problem is that you did not set up `launch.json` or there is a syntax error in that file. Alternatively, you might need to open a folder, since no-folder debugging does not support launch configurations.
+
+[Snippets and Emmet](https://github.com/Onemanwolf/visual-studio-2019/blob/master/VisualStudioCode2019_Getting_Started/docs/VisualStudioCode_Snippets_emmit.md)
