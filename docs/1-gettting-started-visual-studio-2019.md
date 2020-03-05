@@ -115,31 +115,26 @@ A console window opens that reveals the sum of 42 + 119, which is 161.
 (Optional) You can change the operator to change the result. For example, you can change the + operator in the int c = a + b; line of code to - for subtraction, * for multiplication, or / for division. Then, when you run the program, the result changes, too.
 Close the console window.
 
-6. Close Visual Studio.
 
-```
+
+
 
 Demo Clone repo from Start Window
 
-1. Open Visual studo Demo Cloning Repo from Git
-
-2. Open the Solution VisualStudio2019_Whats_New
-
-```
-
+1. Create New Console App Name it VS_Demo.
 
 ## Improved search
 
-```
-  Demo search:
+Demo search:
 
-  Search for Font Ctrl + Q  font  change font.
-  Search for Class  add Class MyAwesome New Class
+2. Search for Font Ctrl + Q  font  change font.
 
-
+3. Search for Class add Class MyAwesome New Class
 
 
-```
+
+
+
 
 
 
@@ -153,7 +148,7 @@ The new fuzzy search logic will find anything you need, regardless of typos. So,
 ## Refactorings
 There are lots of new and highly useful refactorings in C# that make it easier to organize your code. They show up as suggestions in the light bulb and include actions such as moving members to interface or base class, adjusting namespaces to match folder structure, convert foreach-loops to Linq queries, and more.
 
-```
+
 Demo Refactoring:
 
   1. (Ctrl + Q) Search for Class select `add Class`  create a Dog class.
@@ -192,14 +187,12 @@ Demo Refactoring:
         public bool Eat(IFood food, DateTime time) => true;
 
      }
-  6. Now select the entire method signature public bool Eat(IFood food, DateTime time) then (Ctrl + .) and select Pull Eat up to IAnimal
+  6. Now select the entire method signature public bool Eat(IFood food, DateTime time) then (`Ctrl + .`) and select Pull Eat up to IAnimal
 
-```
-img
-
-Simply invoke the refactorings by pressing Ctrl+. and selecting the action you want to take.
+Simply invoke the refactorings by pressing `Ctrl+.` and selecting the action you want to take.
 
 ## IntelliCode
+
 Visual Studio IntelliCode enhances your software development efforts by using artificial intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub—each with over 100 stars—to generate its recommendations.
 
 
@@ -213,15 +206,16 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
 * Focus code reviews by drawing attention to areas that really matter
 
 
-```
+
  Demo IntelliCode
 
-   1.  IntelliCode is IntelliSense on steriods it uses AI to
-    Train a model for you person coding style as well as give
-    you suggestion based the most popular options used by the
-    community at large.
+1. [IntelliCode](https://docs.microsoft.com/en-us/visualstudio/intellicode/intellicode-visual-studio) is IntelliSense on steriods it uses AI to
+Train a model for you person coding style as well as give
+you suggestion based the most popular options used by the
+community at large.
 
-   Training Code You will need to Enable Intellicode
+
+Training Code You will need to Enable Intellicode
 
    You can Train a Model by clicking train my model and it creates a model and downloads it on your machine.
 
@@ -234,7 +228,7 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
 
 
 
-```
+
 
 [IntelliCode for Visual Studio Overview](https://docs.microsoft.com/en-us/visualstudio/intellicode/intellicode-visual-studio)
 
@@ -246,6 +240,7 @@ And if you're using C#, we've also added the ability to train a custom model on 
 For more information about IntelliCode, see the Announcing the general availability of IntelliCode plus a sneak peek and Code more, scroll less with Visual Studio IntelliCode blog posts.
 
 ## Code cleanup
+
 Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with the click of a button.
 
 The cleanup will format the code and apply any code fixes as suggested by the current settings and .editorconfig files.
@@ -256,12 +251,12 @@ You can also save collections of fixers as a profile. For example, if you have a
 
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/code-cleanup-profile-configure.png?raw=true "Request Pipeline")
 
-```
-  1. Ctrl + Q search for Code Styles navigate to C# Code Style click arrow expanding General tab navigate to the var preferences change setting to Prefer 'var' and set Serverity to Warning.
 
-  2. Demostrate the preview of code stlye and how to set and export Generate.editorconfig file from settings
+1. Ctrl + Q search for Code Styles navigate to C# Code Style click arrow expanding General tab navigate to the var preferences change setting to Prefer 'var' and set Serverity to Warning.
 
-```
+2. Demostrate the preview of code stlye and how to set and export Generate.editorconfig file from settings
+
+
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/code-style-window.png?raw=true "Request Pipeline")
 
 ## Live Share
@@ -271,15 +266,12 @@ You can also save collections of fixers as a profile. For example, if you have a
 And with Visual Studio 2019, this service is installed by default.
 
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/live-share.gif?raw=true "Request Pipeline")
-```
+
  1. Open Visual Studio Code
 
  2. Select the Live Share Extension Click on Jion Session and Paste in the Url to the live session
 
- Note:  ###Make sure to install the live share extension if it is not availble Search the Extension for Live Share and install it takes just a few minutes if that .
-
-```
-
+ Note:  ###Make sure to install the live share extension if it is not availble Search the Extension for Live Share and install it takes just a few minutes if that.
 
 ## Debug
 
