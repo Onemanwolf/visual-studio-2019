@@ -274,7 +274,7 @@ And with Visual Studio 2019, this service is installed by default.
  Note:  ###Make sure to install the live share extension if it is not availble Search the Extension for Live Share and install it takes just a few minutes if that.
 
 
-# Nuget pacakages and clientside libraries
+# Nuget packages and clientside libraries
 
 [LibMan](https://docs.microsoft.com/en-us/aspnet/core/client-side/libman/libman-vs?view=aspnetcore-3.1)
 
