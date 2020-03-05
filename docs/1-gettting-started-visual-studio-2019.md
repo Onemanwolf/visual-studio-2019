@@ -273,6 +273,14 @@ And with Visual Studio 2019, this service is installed by default.
 
  Note:  ###Make sure to install the live share extension if it is not availble Search the Extension for Live Share and install it takes just a few minutes if that.
 
+
+# Nuget pacakages and clientside libraries
+
+[LibMan](https://docs.microsoft.com/en-us/aspnet/core/client-side/libman/libman-vs?view=aspnetcore-3.1)
+
+1. In Solution Explorer, right-click the project folder in which the files should be added. Choose Add > Client-Side Library. The Add Client-Side Library dialog appears.
+
+
 ## Debug
 
 Visual Studio 2019 has made debugging mucher more perfor
