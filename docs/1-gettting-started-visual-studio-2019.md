@@ -5,7 +5,7 @@
 [Docs Reference](https://docs.microsoft.com/en-us/visualstudio/ide/whats-new-visual-studio-2019?view=vs-2019)
 
 
-Install [16.3 release](https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes)
+Install [16.4 release](https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes)
 
 With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in this new version!
 
@@ -65,12 +65,12 @@ After you apply the language and platform filters, choose the `Console App (.NET
 
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/csharp-create-new-project-search-console-net-core-filtered.png?raw=true "Request Pipeline")
 
- `Note:` 
+ `Note:`
  >If you do not see the Console App (.NET Core) >template, you can install it from the Create a new >project window. In the Not finding what you're >looking for? message, choose the Install more tools >and features link.
 >
  >Then, in the Visual Studio Installer, choose the >.NET Core cross-platform development workload.
 >
- >After that, choose the Modify button in the Visual >Studio Installer. You might be prompted to save >your work; if so, do so. Next, choose Continue to >install the workload. Then, return to step 2 in >this "Create a project" procedure. 
+ >After that, choose the Modify button in the Visual >Studio Installer. You might be prompted to save >your work; if so, do so. Next, choose Continue to >install the workload. Then, return to step 2 in >this "Create a project" procedure.
 
 
 4. In the `Configure your new project` window, type or enter Calculator in the `Project name` box. Then, choose `Create`.
@@ -97,12 +97,12 @@ C#
         int c = a + b;
         Console.WriteLine(c);
         Console.ReadKey();
-//error        
+//error
 ```
 
 
- Notice: 
- > that when you do so, *the IntelliSense 
+ Notice:
+ > that when you do so, *the IntelliSense
  > feature in Visual Studio offers you the option to
  > autocomplete the entry.
 
@@ -133,9 +133,9 @@ Demo Clone repo from Start Window
 ```
   Demo search:
 
-  Search for Font Ctrl + Q  font  change font. 
+  Search for Font Ctrl + Q  font  change font.
   Search for Class  add Class MyAwesome New Class
-  
+
 
 
 
@@ -157,13 +157,13 @@ There are lots of new and highly useful refactorings in C# that make it easier t
 Demo Refactoring:
 
   1. (Ctrl + Q) Search for Class select `add Class`  create a Dog class.
- 
+
    type `: IAnimal` after Dog as below:
 
    class Dog : IAnimal
     {
     }
-  
+
   2. click inside IAnimal and press (Ctrl + .) and then Select create Interface in another file" from the availble options.
 
   3. look for the file in Solution explore window IAnimal file double click after the file opens add Leg Property to the interface.
@@ -217,11 +217,11 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
  Demo IntelliCode
 
    1.  IntelliCode is IntelliSense on steriods it uses AI to
-    Train a model for you person coding style as well as give 
-    you suggestion based the most popular options used by the 
-    community at large. 
+    Train a model for you person coding style as well as give
+    you suggestion based the most popular options used by the
+    community at large.
 
-   Training Code You will need to Enable Intellicode 
+   Training Code You will need to Enable Intellicode
 
    You can Train a Model by clicking train my model and it creates a model and downloads it on your machine.
 
@@ -238,7 +238,7 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
 
 [IntelliCode for Visual Studio Overview](https://docs.microsoft.com/en-us/visualstudio/intellicode/intellicode-visual-studio)
 
-We initially supported only C# when we first previewed the IntelliCode as an extension for Visual Studio. Now, new in 16.1, we've added 
+We initially supported only C# when we first previewed the IntelliCode as an extension for Visual Studio. Now, new in 16.1, we've added
 support * for C# and XAML "in-the-box". (Support for C++ and TypeScript/JavaScript are still in preview, however.)
 
 And if you're using C#, we've also added the ability to train a custom model on your own code.
@@ -257,12 +257,12 @@ You can also save collections of fixers as a profile. For example, if you have a
 ![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/code-cleanup-profile-configure.png?raw=true "Request Pipeline")
 
 ```
-  1. Ctrl + Q search for Code Styles navigate to C# Code Style click arrow expanding General tab navigate to the var preferences change setting to Prefer 'var' and set Serverity to Warning. 
+  1. Ctrl + Q search for Code Styles navigate to C# Code Style click arrow expanding General tab navigate to the var preferences change setting to Prefer 'var' and set Serverity to Warning.
 
   2. Demostrate the preview of code stlye and how to set and export Generate.editorconfig file from settings
 
 ```
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/code-style-window.png?raw=true "Request Pipeline") 
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/code-style-window.png?raw=true "Request Pipeline")
 
 ## Live Share
 
@@ -270,12 +270,12 @@ You can also save collections of fixers as a profile. For example, if you have a
 
 And with Visual Studio 2019, this service is installed by default.
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/live-share.gif?raw=true "Request Pipeline") 
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/live-share.gif?raw=true "Request Pipeline")
 ```
- 1. Open Visual Studio Code 
+ 1. Open Visual Studio Code
 
- 2. Select the Live Share Extension Click on Jion Session and Paste in the Url to the live session    
- 
+ 2. Select the Live Share Extension Click on Jion Session and Paste in the Url to the live session
+
  Note:  ###Make sure to install the live share extension if it is not availble Search the Extension for Live Share and install it takes just a few minutes if that .
 
 ```
@@ -285,6 +285,6 @@ And with Visual Studio 2019, this service is installed by default.
 
 Visual Studio 2019 has made debugging mucher more perfor
 
-![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/debug-data-breakpoints.gif?raw=true "Request Pipeline") 
+![alt text](https://github.com/Onemanwolf/visual-studio-2019/blob/master/docs/images/debug-data-breakpoints.gif?raw=true "Request Pipeline")
 
 [Debug in Visual Studio 2019](2-debug-visual-studio-2019.md)
