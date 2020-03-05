@@ -7,7 +7,7 @@ At its heart, Visual Studio Code is a code editor. Like many other code editors,
 
 
 # Basic Layout
-VS Code comes with a simple and intuitive layout that maximizes the space provided for the editor while leaving ample room to browse and access the full context of your folder or project. The UI is divided into five areas:
+VS **Code** comes with a simple and intuitive layout that maximizes the space provided for the editor while leaving ample room to browse and access the full context of your folder or project. The UI is divided into five areas:
 
 * Editor - The main area to edit your files. You can open as many editors as you like side by side vertically and horizontally.
 * Side Bar - Contains different views like the Explorer to assist you while working on your project.
