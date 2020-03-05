@@ -36,21 +36,30 @@ Visual studio code gives use some of both worlds by providing some of the featur
 | **debug**                               |
 | **task running**                        |
 
-# Top Extensions
+# Extensions
 
 Enable additional languages, themes, debuggers, commands, and more. VS Code's growing community shares their secret sauce to improve your workflow.
+
+Teams can create a collection of Extensions, `Extension Packs` and publish them to share acrross teams.
+
+* [Vue VS Code Extensions sarah.drasner](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-extensionpack)
+* [Angular Essentials](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials)
+
+* [React Food Truck](https://marketplace.visualstudio.com/items?itemName=burkeholland.react-food-truck)
+
+<img src="./Images/Agenda/food_truck_react_package_ext.png" alt="vscode-icons" width=""/>
+
+# Top Extensions
 
 | [<img src="./Images/Agenda/Python.png" alt="vscode-icons" width="60"/>](https://marketplace.visualstudio.com/items?itemName=ms-python.python) | [<img src="./Images/Agenda/CCPlusPlus.png" alt="vscode-icons" width="60" />](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) | [<img src="./Images/Agenda/ESLint.png" alt="vscode-icons" width="60"/>](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings) | [<img src="./Images/Agenda/CSharp.png" alt="vscode-icons" width="60" />](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings) |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)                                                                | [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)                                                                      | [ESLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)                                                                | [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings)                                                                     |
 
 | [<img src="./Images/Agenda/Prettier.png" alt="vscode-icons" width="60"/>](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) | [<img src="./Images/Agenda/DebuggerForChrome.png" alt="vscode-icons" width="60" />](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) | [<img src="./Images/Agenda/Java.png" alt="vscode-icons" width="60"/>](https://marketplace.visualstudio.com/items?itemName=redhat.java) | [<img src="./Images/Agenda/vs_code_icons.png" alt="vscode-icons" width="60" />](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| __-----------------------------------------------------------------------------------------------------------------------------------------------------__ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Prettier - Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)                                                         | [Debugger](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)                                                                          | [Java](https://marketplace.visualstudio.com/items?itemName=redhat.java)                                                                | [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)                                                                  |
 
-Vue VS Code Extensions sarah.drasner
-Angular Essentials
-React Food Truck
+
 
 # Agenda
 
