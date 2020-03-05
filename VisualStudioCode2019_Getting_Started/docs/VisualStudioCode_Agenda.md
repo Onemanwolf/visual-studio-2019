@@ -21,7 +21,7 @@ Why VS Code? - Read about the design philosophy and architecture of VS Code.
 
 **Editors**: general are light weight and fast they don't have wizards but have many tools to help build projects. Allows for more customizing of tooling and "_combines **simplicity of a code editor** with what developers need for their **code-edit-debug-cyles**_" --Eric Gamma
 
-**IDE**: general are large installs are slower to spin up and install extensions they provide platforming tools for example Azure and have very powerful debuging tools. But the more tools you have built in the slows you down.
+**IDE**: Are General are large installs are slower to spin up and install extensions they provide platforming tools and are  for example Azure the are feature rich and have very powerful debuging tools. The more tools you have built in the bigger the Application foot print is.
 
 Visual studio code gives use some of both worlds by providing some of the features you get in a full IDE in **Visual Studio Code**:
 
